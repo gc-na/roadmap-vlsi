@@ -1,16 +1,53 @@
 ---
-import { RoadmapsPage } from '../components/Roadmaps/RoadmapsPage';
-import { RoadmapsPageHeader } from '../components/Roadmaps/RoadmapsPageHeader';
+import FeaturedItems from '../components/FeaturedItems/FeaturedItems.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ChangelogBanner from '../components/ChangelogBanner.astro';
+import {
+  isNewRoadmap,
+  listOfficialRoadmaps,
+} from '../queries/official-roadmap';
+
+const roadmaps = await listOfficialRoadmaps();
+const skillRoadmaps = roadmaps
+  .filter((r) => r.type === 'skill')
+  .sort((a, b) => a.order - b.order);
+const roleRoadmaps = roadmaps
+  .filter((r) => r.type === 'role')
+  .sort((a, b) => a.order - b.order);
+
+const toItems = (list: typeof roadmaps) =>
+  list.map((roadmapItem) => ({
+    text: roadmapItem.title.card,
+    url: `/${roadmapItem.slug}`,
+    isNew: isNewRoadmap(roadmapItem.createdAt),
+  }));
 ---
 
 <BaseLayout
-  title='Developer Roadmaps'
-  description={'Step by step guides and paths to learn different tools or technologies'}
+  title='All Roadmaps — VLSI Korea'
+  description='Semiconductor design career roadmaps: skill tracks and job roles for STA, Physical Design, RTL, Verification, Analog, DFT, EDA, and more.'
   permalink={'/roadmaps'}
 >
-  <RoadmapsPageHeader client:load />
-  <RoadmapsPage client:load />
-  <ChangelogBanner slot='changelog-banner' />
+  <div class='bg-linear-to-b from-blue-950 to-black'>
+    <div class='container py-12 text-center text-white sm:py-16'>
+      <h1 class='mb-3 text-3xl font-bold sm:text-4xl'>All Roadmaps</h1>
+      <p class='mx-auto max-w-2xl text-base text-gray-300 sm:text-lg'>
+        Skill tracks teach a discipline end-to-end. Job roles map those skills
+        to real positions at semiconductor companies. Explore the
+        <a href='/career-graph' class='text-blue-400 underline hover:text-blue-300'>career graph</a>
+        to see how they connect.
+      </p>
+    </div>
+
+    <FeaturedItems
+      heading='Skill-based Roadmaps'
+      featuredItems={toItems(skillRoadmaps)}
+      showCreateRoadmap={false}
+    />
+
+    <FeaturedItems
+      heading='Role-based Roadmaps'
+      featuredItems={toItems(roleRoadmaps)}
+      showCreateRoadmap={false}
+    />
+  </div>
 </BaseLayout>
