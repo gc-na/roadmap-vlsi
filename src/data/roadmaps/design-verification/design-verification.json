@@ -16,7 +16,7 @@
             "text": "Design Verification",
             "size": 28,
             "bold": true,
-            "color": "#1a1a2e"
+            "color": 1710638
           },
           "zOrder": 1
         },
@@ -27,8 +27,8 @@
           "measuredW": 860,
           "measuredH": 70,
           "properties": {
-            "color": "#f8fafc",
-            "borderColor": "#e2e8f0",
+            "color": 16317180,
+            "borderColor": 14870768,
             "backgroundAlpha": 0.5
           },
           "zOrder": 0
@@ -43,8 +43,9 @@
             "text": "Foundations",
             "size": 15,
             "bold": true,
-            "color": "#2b78e4",
-            "borderColor": "#2b78e4"
+            "color": 2848996,
+            "borderColor": 2848996,
+            "textColor": 16777215
           },
           "zOrder": 2
         },
@@ -70,8 +71,8 @@
                   "properties": {
                     "text": "Mindset",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#2b78e4",
+                    "color": 16777215,
+                    "borderColor": 2848996,
                     "backgroundAlpha": 1.0
                   },
                   "zOrder": 2
@@ -102,8 +103,8 @@
                   "properties": {
                     "text": "Testbench",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#2b78e4",
+                    "color": 16777215,
+                    "borderColor": 2848996,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -131,7 +132,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -158,8 +159,8 @@
                   "properties": {
                     "text": "Simulation",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#2b78e4",
+                    "color": 16777215,
+                    "borderColor": 2848996,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -187,7 +188,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -214,8 +215,8 @@
                   "properties": {
                     "text": "Bugs",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#2b78e4",
+                    "color": 16777215,
+                    "borderColor": 2848996,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -243,7 +244,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -267,7 +268,7 @@
               "x": 30,
               "y": 0
             },
-            "color": "#2b78e4",
+            "color": 2848996,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -279,8 +280,8 @@
           "measuredW": 860,
           "measuredH": 70,
           "properties": {
-            "color": "#f8fafc",
-            "borderColor": "#e2e8f0",
+            "color": 16317180,
+            "borderColor": 14870768,
             "backgroundAlpha": 0.5
           },
           "zOrder": 0
@@ -295,8 +296,9 @@
             "text": "SV Testbench",
             "size": 15,
             "bold": true,
-            "color": "#4f7a28",
-            "borderColor": "#4f7a28"
+            "color": 5208616,
+            "borderColor": 5208616,
+            "textColor": 16777215
           },
           "zOrder": 2
         },
@@ -322,8 +324,8 @@
                   "properties": {
                     "text": "OOP",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#4f7a28",
+                    "color": 16777215,
+                    "borderColor": 5208616,
                     "backgroundAlpha": 1.0
                   },
                   "zOrder": 2
@@ -354,8 +356,8 @@
                   "properties": {
                     "text": "Random",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#4f7a28",
+                    "color": 16777215,
+                    "borderColor": 5208616,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -383,7 +385,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -410,8 +412,8 @@
                   "properties": {
                     "text": "Coverage",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#4f7a28",
+                    "color": 16777215,
+                    "borderColor": 5208616,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -439,7 +441,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -466,8 +468,8 @@
                   "properties": {
                     "text": "Assertions",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#4f7a28",
+                    "color": 16777215,
+                    "borderColor": 5208616,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -495,7 +497,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -519,7 +521,7 @@
               "x": 30,
               "y": 0
             },
-            "color": "#4f7a28",
+            "color": 5208616,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -531,8 +533,8 @@
           "measuredW": 860,
           "measuredH": 70,
           "properties": {
-            "color": "#f8fafc",
-            "borderColor": "#e2e8f0",
+            "color": 16317180,
+            "borderColor": 14870768,
             "backgroundAlpha": 0.5
           },
           "zOrder": 0
@@ -547,8 +549,9 @@
             "text": "UVM",
             "size": 15,
             "bold": true,
-            "color": "#874efe",
-            "borderColor": "#874efe"
+            "color": 8867582,
+            "borderColor": 8867582,
+            "textColor": 16777215
           },
           "zOrder": 2
         },
@@ -574,8 +577,8 @@
                   "properties": {
                     "text": "Architecture",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#874efe",
+                    "color": 16777215,
+                    "borderColor": 8867582,
                     "backgroundAlpha": 1.0
                   },
                   "zOrder": 2
@@ -606,8 +609,8 @@
                   "properties": {
                     "text": "Sequences",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#874efe",
+                    "color": 16777215,
+                    "borderColor": 8867582,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -635,7 +638,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -662,8 +665,8 @@
                   "properties": {
                     "text": "Scoreboard",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#874efe",
+                    "color": 16777215,
+                    "borderColor": 8867582,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -691,7 +694,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -718,8 +721,8 @@
                   "properties": {
                     "text": "Reg Layer",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#874efe",
+                    "color": 16777215,
+                    "borderColor": 8867582,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -747,7 +750,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -771,7 +774,7 @@
               "x": 30,
               "y": 0
             },
-            "color": "#874efe",
+            "color": 8867582,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -783,8 +786,8 @@
           "measuredW": 860,
           "measuredH": 70,
           "properties": {
-            "color": "#f8fafc",
-            "borderColor": "#e2e8f0",
+            "color": 16317180,
+            "borderColor": 14870768,
             "backgroundAlpha": 0.5
           },
           "zOrder": 0
@@ -799,8 +802,9 @@
             "text": "Advanced",
             "size": 15,
             "bold": true,
-            "color": "#e47911",
-            "borderColor": "#e47911"
+            "color": 14973201,
+            "borderColor": 14973201,
+            "textColor": 16777215
           },
           "zOrder": 2
         },
@@ -826,8 +830,8 @@
                   "properties": {
                     "text": "Formal",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#e47911",
+                    "color": 16777215,
+                    "borderColor": 14973201,
                     "backgroundAlpha": 1.0
                   },
                   "zOrder": 2
@@ -858,8 +862,8 @@
                   "properties": {
                     "text": "Emulation",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#e47911",
+                    "color": 16777215,
+                    "borderColor": 14973201,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -887,7 +891,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -914,8 +918,8 @@
                   "properties": {
                     "text": "Perf DV",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#e47911",
+                    "color": 16777215,
+                    "borderColor": 14973201,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -943,7 +947,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -970,8 +974,8 @@
                   "properties": {
                     "text": "Gate Sims",
                     "size": 13,
-                    "color": "#ffffff",
-                    "borderColor": "#e47911",
+                    "color": 16777215,
+                    "borderColor": 14973201,
                     "backgroundAlpha": 0.9
                   },
                   "zOrder": 2
@@ -999,7 +1003,7 @@
               "x": 16,
               "y": 0
             },
-            "color": "#94a3b8",
+            "color": 9741240,
             "stroke": "solid"
           },
           "zOrder": 1
@@ -1023,7 +1027,7 @@
               "x": 30,
               "y": 0
             },
-            "color": "#e47911",
+            "color": 14973201,
             "stroke": "solid"
           },
           "zOrder": 1
