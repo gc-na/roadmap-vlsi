@@ -1,0 +1,757 @@
+{
+  "mockup": {
+    "controls": {
+      "control": [
+        {
+          "typeID": "Label",
+          "x": 20,
+          "y": 10,
+          "measuredW": 200,
+          "measuredH": 30,
+          "properties": {
+            "text": "Process Technology Engineer",
+            "size": 28,
+            "color": 1710638
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 60,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 70,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Process Fundamentals",
+            "size": 15,
+            "bold": true,
+            "color": 2848996,
+            "borderColor": 2848996,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "cmos-technology@cmos-technology"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "CMOS Technology",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "process-nodes@process-nodes"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Process Nodes",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "design-rules@design-rules"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Design Rules",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "design-kit@design-kit"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Design Kit",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 160,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 170,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Cell Development",
+            "size": 15,
+            "bold": true,
+            "color": 5208616,
+            "borderColor": 5208616,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "standard-cell-library@standard-cell-library"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Standard Cell Library",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "memory-cells@memory-cells"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Memory Cells",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "i/o-cells@i/o-cells"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "I/O Cells",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "characterization@characterization"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Characterization",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 260,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 270,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "PDK & Tools",
+            "size": 15,
+            "bold": true,
+            "color": 8867582,
+            "borderColor": 8867582,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "pdk-delivery@pdk-delivery"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "PDK Delivery",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "spice-models@spice-models"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Spice Models",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "design-rule-checking@design-rule-checking"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Design Rule Checking",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "documentation@documentation"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Documentation",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 360,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 370,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Advanced",
+            "size": 15,
+            "bold": true,
+            "color": 14973201,
+            "borderColor": 14973201,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "process-variation@process-variation"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Process Variation",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "thermal-effects@thermal-effects"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Thermal Effects",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "reliability@reliability"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Reliability",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "next-gen-nodes@next-gen-nodes"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Next-Gen Nodes",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 460,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 470,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Career",
+            "size": 15,
+            "bold": true,
+            "color": 1013358,
+            "borderColor": 1013358,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "pdk-lead@pdk-lead"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "PDK Lead",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "process-engineer-manager@process-engineer-manager"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Process Engineer Manager",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "director@director"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Director",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "chief-process-architect@chief-process-architect"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Chief Process Architect",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "measuredW": 800,
+    "measuredH": 560
+  }
+}

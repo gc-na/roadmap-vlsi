@@ -1,0 +1,757 @@
+{
+  "mockup": {
+    "controls": {
+      "control": [
+        {
+          "typeID": "Label",
+          "x": 20,
+          "y": 10,
+          "measuredW": 200,
+          "measuredH": 30,
+          "properties": {
+            "text": "Design Director",
+            "size": 28,
+            "color": 1710638
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 60,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 70,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Technical Leadership",
+            "size": 15,
+            "bold": true,
+            "color": 2848996,
+            "borderColor": 2848996,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "technology-strategy@technology-strategy"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Technology Strategy",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "architecture-decisions@architecture-decisions"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Architecture Decisions",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "innovation@innovation"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Innovation",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "standards@standards"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Standards",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 160,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 170,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Organization",
+            "size": 15,
+            "bold": true,
+            "color": 5208616,
+            "borderColor": 5208616,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "team-structure@team-structure"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Team Structure",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "hiring@hiring"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Hiring",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "succession-planning@succession-planning"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Succession Planning",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "culture@culture"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Culture",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 260,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 270,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Product & Business",
+            "size": 15,
+            "bold": true,
+            "color": 8867582,
+            "borderColor": 8867582,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "market-analysis@market-analysis"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Market Analysis",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "competitive-positioning@competitive-positioning"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Competitive Positioning",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "cost-targets@cost-targets"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Cost Targets",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "time-to-market@time-to-market"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Time-to-Market",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 360,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 370,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Executive",
+            "size": 15,
+            "bold": true,
+            "color": 14973201,
+            "borderColor": 14973201,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "board-presentations@board-presentations"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Board Presentations",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "executive-communication@executive-communication"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Executive Communication",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "p&l-responsibility@p&l-responsibility"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "P&L Responsibility",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "strategic-planning@strategic-planning"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Strategic Planning",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 460,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 470,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Career",
+            "size": 15,
+            "bold": true,
+            "color": 1013358,
+            "borderColor": 1013358,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "vp-engineering@vp-engineering"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "VP Engineering",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "chief-technology-officer@chief-technology-officer"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Chief Technology Officer",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "evp@evp"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "EVP",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "c-suite@c-suite"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "C-Suite",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "measuredW": 800,
+    "measuredH": 560
+  }
+}

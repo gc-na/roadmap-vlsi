@@ -1,0 +1,757 @@
+{
+  "mockup": {
+    "controls": {
+      "control": [
+        {
+          "typeID": "Label",
+          "x": 20,
+          "y": 10,
+          "measuredW": 200,
+          "measuredH": 30,
+          "properties": {
+            "text": "Memory Designer",
+            "size": 28,
+            "color": 1710638
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 60,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 70,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Bit Cell Design",
+            "size": 15,
+            "bold": true,
+            "color": 2848996,
+            "borderColor": 2848996,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "dram-cell@dram-cell"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "DRAM Cell",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "sram-cell@sram-cell"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "SRAM Cell",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "flash-cell@flash-cell"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Flash Cell",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "reliability@reliability"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Reliability",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 160,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 170,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Array Periphery",
+            "size": 15,
+            "bold": true,
+            "color": 5208616,
+            "borderColor": 5208616,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "decoders@decoders"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Decoders",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "sense-amps@sense-amps"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Sense Amps",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "write-drivers@write-drivers"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Write Drivers",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "power@power"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Power",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 260,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 270,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Characterization",
+            "size": 15,
+            "bold": true,
+            "color": 8867582,
+            "borderColor": 8867582,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "speed@speed"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Speed",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "power@power"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Power",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "noise-margins@noise-margins"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Noise Margins",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "temperature@temperature"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Temperature",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 360,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 370,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Advanced",
+            "size": 15,
+            "bold": true,
+            "color": 14973201,
+            "borderColor": 14973201,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "multi-level-cells@multi-level-cells"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Multi-Level Cells",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "3d-memory@3d-memory"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "3D Memory",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "yield@yield"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Yield",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "process-variation@process-variation"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Process Variation",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 460,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 470,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Career",
+            "size": 15,
+            "bold": true,
+            "color": 1013358,
+            "borderColor": 1013358,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "memory-architecture@memory-architecture"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Memory Architecture",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "technology-lead@technology-lead"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Technology Lead",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "manager@manager"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Manager",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "principal@principal"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Principal",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "measuredW": 800,
+    "measuredH": 560
+  }
+}

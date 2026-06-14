@@ -1,0 +1,757 @@
+{
+  "mockup": {
+    "controls": {
+      "control": [
+        {
+          "typeID": "Label",
+          "x": 20,
+          "y": 10,
+          "measuredW": 200,
+          "measuredH": 30,
+          "properties": {
+            "text": "STA Engineer",
+            "size": 28,
+            "color": 1710638
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 60,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 70,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Fundamentals",
+            "size": 15,
+            "bold": true,
+            "color": 2848996,
+            "borderColor": 2848996,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "digital-logic@digital-logic"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Digital Logic",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "setup/hold@setup/hold"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Setup/Hold",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "clock-basics@clock-basics"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Clock Basics",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "timing-arcs@timing-arcs"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Timing Arcs",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 160,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 170,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Core STA",
+            "size": 15,
+            "bold": true,
+            "color": 5208616,
+            "borderColor": 5208616,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "timing-paths@timing-paths"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Timing Paths",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "slack-analysis@slack-analysis"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Slack Analysis",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "clock-domains@clock-domains"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Clock Domains",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "exceptions@exceptions"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Exceptions",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 260,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 270,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Advanced",
+            "size": 15,
+            "bold": true,
+            "color": 8867582,
+            "borderColor": 8867582,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "ocv/aocv@ocv/aocv"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "OCV/AOCV",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "crosstalk@crosstalk"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Crosstalk",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "mmmc@mmmc"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "MMMC",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "signoff@signoff"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Signoff",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 360,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 370,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Tools",
+            "size": 15,
+            "bold": true,
+            "color": 14973201,
+            "borderColor": 14973201,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "primetime@primetime"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "PrimeTime",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "tempus@tempus"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Tempus",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "opensta@opensta"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "OpenSTA",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "tcl-scripting@tcl-scripting"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Tcl Scripting",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 460,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 470,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Career",
+            "size": 15,
+            "bold": true,
+            "color": 1013358,
+            "borderColor": 1013358,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "closure-lead@closure-lead"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Closure Lead",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "methodology@methodology"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Methodology",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "tool-dev@tool-dev"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Tool Dev",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "management@management"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Management",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "measuredW": 800,
+    "measuredH": 560
+  }
+}

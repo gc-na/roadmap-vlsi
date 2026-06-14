@@ -1,0 +1,757 @@
+{
+  "mockup": {
+    "controls": {
+      "control": [
+        {
+          "typeID": "Label",
+          "x": 20,
+          "y": 10,
+          "measuredW": 200,
+          "measuredH": 30,
+          "properties": {
+            "text": "Design for Manufacturing Engineer",
+            "size": 28,
+            "color": 1710638
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 60,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 70,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "DFM Fundamentals",
+            "size": 15,
+            "bold": true,
+            "color": 2848996,
+            "borderColor": 2848996,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "lithography@lithography"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Lithography",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "process-windows@process-windows"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Process Windows",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "defect-sensitivity@defect-sensitivity"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Defect Sensitivity",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 100,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "yield-impact@yield-impact"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Yield Impact",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 2848996,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 160,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 170,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Design Rules & Checking",
+            "size": 15,
+            "bold": true,
+            "color": 5208616,
+            "borderColor": 5208616,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "design-rule-development@design-rule-development"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Design Rule Development",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "drc-tools@drc-tools"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "DRC Tools",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "rule-enforcement@rule-enforcement"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Rule Enforcement",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 200,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "exceptions@exceptions"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Exceptions",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 5208616,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 260,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 270,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Analysis & Optimization",
+            "size": 15,
+            "bold": true,
+            "color": 8867582,
+            "borderColor": 8867582,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "critical-area-analysis@critical-area-analysis"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Critical Area Analysis",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "lithography-simulation@lithography-simulation"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Lithography Simulation",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "cost-optimization@cost-optimization"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Cost Optimization",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 300,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "hotspot-identification@hotspot-identification"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Hotspot Identification",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 8867582,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 360,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 370,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Fab Collaboration",
+            "size": 15,
+            "bold": true,
+            "color": 14973201,
+            "borderColor": 14973201,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "process-variability@process-variability"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Process Variability",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "design-robustness@design-robustness"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Design Robustness",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "design-kits@design-kits"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Design Kits",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 400,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "feedback-loop@feedback-loop"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Feedback Loop",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 14973201,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Canvas",
+          "x": 10,
+          "y": 460,
+          "measuredW": 780,
+          "measuredH": 80,
+          "properties": {
+            "color": 16317180,
+            "borderColor": 14870768,
+            "backgroundAlpha": 0.5
+          }
+        },
+        {
+          "typeID": "TextInput",
+          "x": 20,
+          "y": 470,
+          "measuredW": 760,
+          "measuredH": 25,
+          "properties": {
+            "text": "Career",
+            "size": 15,
+            "bold": true,
+            "color": 1013358,
+            "borderColor": 1013358,
+            "textColor": 16777215
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 20,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "dfm-lead@dfm-lead"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "DFM Lead",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 170,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "process-design-kit-manager@process-design-kit-manager"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Process Design Kit Manager",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 320,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "director@director"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Director",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 470,
+          "y": 500,
+          "measuredW": 140,
+          "measuredH": 30,
+          "properties": {
+            "controlName": "principal@principal"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 30,
+                  "properties": {
+                    "text": "Principal",
+                    "size": 13,
+                    "color": 16777215,
+                    "borderColor": 1013358,
+                    "backgroundAlpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "measuredW": 800,
+    "measuredH": 560
+  }
+}
