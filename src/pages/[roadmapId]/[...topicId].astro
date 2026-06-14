@@ -1,7 +1,4 @@
 ---
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import {
   getOfficialGuide,
   type OfficialGuideResponse,
@@ -10,6 +7,15 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { GuideContent } from '../../components/Guide/GuideContent';
 import { getOpenGraphImageUrl } from '../../lib/open-graph';
 import { markdownToHtmlWithHighlighting } from '../../lib/markdown';
+
+// Bundle topic markdown at build time so it ships inside the serverless
+// function. Reading from disk at runtime (fs) fails on Vercel because the
+// src/data files are not traced into the function bundle.
+const topicContentFiles = import.meta.glob('/src/data/roadmaps/*/content/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+}) as Record<string, string>;
 
 const RESOURCE_TYPE_LABELS: Record<string, string> = {
   book: '📖',
@@ -52,24 +58,6 @@ if (isTopic) {
   // Handle nested paths by joining the segments
   const topicPath = Array.isArray(topicId) ? topicId.join('/') : topicId;
 
-  // Get the project root directory
-  const __filename = fileURLToPath(import.meta.url);
-  const __dirname = path.dirname(__filename);
-
-  // hack to make it work. TODO: Fix
-  const projectRoot = path.resolve(__dirname, '../../..').replace(/dist$/, '');
-
-  // Construct the path to the markdown file
-  let contentPath = path.join(
-    projectRoot,
-    'src',
-    'data',
-    'roadmaps',
-    roadmapId,
-    'content',
-    `${topicPath}.md`,
-  );
-
   const nodeId = topicPath.split('@')?.[1];
   if (!nodeId) {
     Astro.response.status = 404;
@@ -77,8 +65,10 @@ if (isTopic) {
     return Astro.rewrite('/404');
   }
 
-  if (fs.existsSync(contentPath)) {
-    const rawMarkdown = fs.readFileSync(contentPath, 'utf-8');
+  const contentKey = `/src/data/roadmaps/${roadmapId}/content/${topicPath}.md`;
+  const rawMarkdown = topicContentFiles[contentKey];
+
+  if (rawMarkdown) {
     htmlContent = await markdownToHtmlWithHighlighting(
       formatResourceLinks(rawMarkdown),
     );
@@ -86,11 +76,7 @@ if (isTopic) {
     htmlContent = '<h1>Not found</h1>';
   }
 
-  const fileWithoutBasePath = contentPath.replace(
-    /.+?\/src\/data/,
-    '/src/data',
-  );
-  gitHubUrl = `https://github.com/nilbuild/developer-roadmap/tree/master${fileWithoutBasePath}`;
+  gitHubUrl = `https://github.com/nilbuild/developer-roadmap/tree/master${contentKey}`;
 } else {
   guide = await getOfficialGuide(topicId, roadmapId);
   if (!guide) {
