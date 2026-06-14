@@ -1,0 +1,14 @@
+# Macros
+
+Macros are large, pre-designed blocks placed into the floorplan as fixed-size, fixed-shape objects — most commonly SRAM/register-file memory compilers, analog/mixed-signal IP, PLLs, I/O cells, or hardened sub-blocks from a previous design. Unlike standard cells, macros cannot be resized or reshaped by the PD tool; instead, the engineer must decide where to place them, how to orient them (including mirroring/rotation), and how much "halo" or keep-out margin to reserve around them for routing channels, power straps, and blockages. Macro placement is one of the highest-leverage decisions in floorplanning because it shapes the entire layout: it determines where standard cell rows can exist, where routing congestion will concentrate, and how long the wires connecting macros to logic and to each other will be.
+
+Good macro placement considers several factors together: minimizing wirelength to the logic that connects most heavily to each macro (especially for timing-critical interfaces), aligning macro pins with convenient metal layers and orientations to ease routing, grouping related macros (e.g., multiple memory banks of the same array) into regular patterns that simplify power grid design and reduce fragmentation of the placeable area, and leaving enough spacing between macros and the die edge or other macros for routing channels and power straps to pass through without creating unroutable slivers. Poorly placed macros — for example, ones that create narrow, irregular gaps in the core — can strand standard cell area, cause severe local congestion, and make timing closure far harder because buffers and repeaters cannot be placed where needed.
+
+Macros also interact heavily with the power grid and physical verification: each macro has its own power/ground pins that must connect to the chip-level power grid (often requiring ring structures around the macro), and blockages must be defined so the placer and router do not attempt to place cells or route signals over the macro's footprint except where explicitly allowed. In hierarchical or multi-instance designs, macro placement decisions are frequently made early and locked, since moving a macro late in the flow can ripple through floorplanning, power grid, CTS, and routing, making early floorplan exploration (often with multiple candidate macro placements evaluated for congestion and timing) a critical step.
+
+Visit the following resources to learn more:
+
+- [@book@Physical Design Essentials: An ASIC Design Implementation Perspective](https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
+- [@course@chip floorplanning and macro placement](https://www.udemy.com/courses/search/?q=chip+floorplanning+macro+placement)
+- [@video@macro placement floorplan ASIC](https://www.youtube.com/results?search_query=macro+placement+floorplan+ASIC)
+- [@article@macro placement](https://vlsi.kr/?s=macro+placement)

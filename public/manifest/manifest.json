@@ -1,0 +1,27 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "VLSI Korea Roadmaps",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "https://roadmap.vlsi.kr/",
+  "short_name": "VLSI Korea",
+  "theme_color": "#0f172a",
+  "description": "Semiconductor design career roadmaps for students, junior engineers, and experienced professionals",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/manifest/icon152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/manifest/icon196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    }
+  ]
+}

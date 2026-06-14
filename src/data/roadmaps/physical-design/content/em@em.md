@@ -1,0 +1,14 @@
+# EM
+
+Electromigration (EM) is a reliability failure mechanism in which high current density through a metal interconnect causes metal atoms to physically migrate over time, gradually thinning the conductor in some locations (eventually causing an open circuit) and forming hillocks or extrusions in others (potentially causing shorts to adjacent wires). EM is a long-term wear-out mechanism — a wire that initially functions correctly can fail after months or years of operation if its current density consistently exceeds the technology's EM limit, which is why EM checking is a mandatory part of signoff reliability analysis rather than just initial functional verification.
+
+EM limits are specified per metal layer and via, typically as a maximum allowed current density (current per unit cross-sectional area) for a given lifetime and temperature, derived from Black's equation, which relates time-to-failure to current density and activation energy. EM analysis must consider both average current (RMS current, relevant for self-heating and long-term migration) and peak current (relevant for vias and contacts, which have very small cross-sections and can hit instantaneous current limits even if average current is fine). Power grid wires carrying large currents to many cells, clock tree trunks and buffers driving thousands of sinks, and any net with unusually high switching activity or fanout are the typical locations where EM violations occur.
+
+Fixing EM violations generally means increasing the effective cross-sectional area available to carry the current: widening the violating wire, adding parallel via arrays instead of single vias (since each via has a fixed current limit), or routing high-current nets on thicker upper-layer metal where EM limits per unit width are higher. For power grid EM, this often means adding more straps or wider straps in the same locations that would also help IR drop, since both are driven by current density and grid resistance — making power grid sizing decisions during floorplanning a shared lever for both IR drop and EM signoff. EM signoff is typically performed with the same power/timing-aware current estimation infrastructure used for dynamic IR drop analysis, and like IR drop, EM violations found late in the flow are costly to fix because they often require routing changes in already-completed regions.
+
+Visit the following resources to learn more:
+
+- [@book@Power Integrity Analysis and Management for Integrated Circuits](https://www.amazon.com/s?k=Power+Integrity+Analysis+and+Management+for+Integrated+Circuits)
+- [@course@electromigration reliability semiconductor](https://www.udemy.com/courses/search/?q=electromigration+reliability+semiconductor)
+- [@video@electromigration EM signoff chip design](https://www.youtube.com/results?search_query=electromigration+EM+signoff+chip+design)
+- [@article@electromigration EM](https://vlsi.kr/?s=electromigration)

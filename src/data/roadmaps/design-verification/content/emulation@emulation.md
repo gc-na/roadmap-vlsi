@@ -1,0 +1,14 @@
+# Emulation
+
+Hardware emulation maps a design's RTL onto an array of FPGAs or custom emulation processors (platforms such as Cadence Palladium, Synopsys ZeBu, or Siemens Veloce) to run at speeds orders of magnitude faster than software simulation — typically in the range of hundreds of kHz to a few MHz, versus simulation's tens or hundreds of Hz for large SoCs. This speed makes emulation the practical choice for running workloads that are simply too long for simulation: booting an operating system, running real firmware and device drivers, executing graphics or video codec test content, or running millions of cycles of traffic needed to hit rare corner-case interactions in a large SoC.
+
+Getting a design into emulation requires significant setup: the RTL must be synthesizable for the emulation platform (no non-synthesizable testbench constructs in the design itself), clock domains need to be mapped to the emulator's clocking scheme (often using a single emulation clock with clock-enable signals to represent multiple real clock domains), and memory models, I/O, and any analog/mixed-signal blocks need to be replaced with synthesizable or behavioral stand-ins. Testbench components that were pure SystemVerilog in simulation often need to be split: time-critical, cycle-accurate logic gets synthesized into the emulator, while higher-level control (test sequences, scoreboards) runs on a host workstation connected via a transactor or co-model interface.
+
+Debug in emulation is fundamentally different from simulation: you can't dump full waveforms for the entire run due to data volume, so engineers typically run with limited "trace buffers" that capture a configurable window of signals, then use triggers (matching a specific condition) to capture the relevant window around a failure, sometimes requiring multiple emulation runs to progressively narrow down the signals being traced. UVM-based testbenches can run on emulation through frameworks that synthesize the driver/monitor pin-level logic while keeping sequence/scoreboard logic on the host, though this requires careful partitioning to avoid the testbench becoming the bottleneck. Emulation is often used for software-driven verification and as a bridge toward post-silicon validation, where the same test content can later run on actual chips.
+
+Visit the following resources to learn more:
+
+- [@book@A Practical Guide to Adopting the Universal Verification Methodology (UVM)](https://www.amazon.com/s?k=A+Practical+Guide+to+Adopting+the+Universal+Verification+Methodology+UVM+Rosenberg+Meade)
+- [@course@hardware emulation SoC verification](https://www.udemy.com/courses/search/?q=hardware+emulation+SoC+verification)
+- [@video@hardware emulation ASIC verification tutorial](https://www.youtube.com/results?search_query=hardware+emulation+ASIC+verification+tutorial)
+- [@article@hardware emulation](https://vlsi.kr/?s=hardware+emulation)

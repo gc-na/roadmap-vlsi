@@ -1,0 +1,1034 @@
+{
+  "mockup": {
+    "measuredW": 900,
+    "measuredH": 470,
+    "mockupW": 900,
+    "mockupH": 470,
+    "controls": {
+      "control": [
+        {
+          "typeID": "Label",
+          "x": 150,
+          "y": 30,
+          "measuredW": 400,
+          "measuredH": 40,
+          "properties": {
+            "text": "Design Verification",
+            "size": 28,
+            "bold": true,
+            "color": "#1a1a2e"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "Canvas",
+          "x": 30,
+          "y": 95,
+          "measuredW": 860,
+          "measuredH": 70,
+          "properties": {
+            "color": "#f8fafc",
+            "borderColor": "#e2e8f0",
+            "backgroundAlpha": 0.5
+          },
+          "zOrder": 0
+        },
+        {
+          "typeID": "TextInput",
+          "x": 50,
+          "y": 105,
+          "measuredW": 150,
+          "measuredH": 45,
+          "properties": {
+            "text": "Foundations",
+            "size": 15,
+            "bold": true,
+            "color": "#2b78e4",
+            "borderColor": "#2b78e4"
+          },
+          "zOrder": 2
+        },
+        {
+          "typeID": "__group__",
+          "x": 230,
+          "y": 105,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "mindset@mindset"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Mindset",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#2b78e4",
+                    "backgroundAlpha": 1.0
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 390,
+          "y": 105,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "testbench@testbench"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Testbench",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#2b78e4",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 372,
+          "y": 127,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "__group__",
+          "x": 550,
+          "y": 105,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "simulation@simulation"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Simulation",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#2b78e4",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 532,
+          "y": 127,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "__group__",
+          "x": 710,
+          "y": 105,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "bugs@bugs"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Bugs",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#2b78e4",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 692,
+          "y": 127,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "Arrow",
+          "x": 190,
+          "y": 127,
+          "measuredW": 30,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 30,
+              "y": 0
+            },
+            "color": "#2b78e4",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "Canvas",
+          "x": 30,
+          "y": 175,
+          "measuredW": 860,
+          "measuredH": 70,
+          "properties": {
+            "color": "#f8fafc",
+            "borderColor": "#e2e8f0",
+            "backgroundAlpha": 0.5
+          },
+          "zOrder": 0
+        },
+        {
+          "typeID": "TextInput",
+          "x": 50,
+          "y": 185,
+          "measuredW": 150,
+          "measuredH": 45,
+          "properties": {
+            "text": "SV Testbench",
+            "size": 15,
+            "bold": true,
+            "color": "#4f7a28",
+            "borderColor": "#4f7a28"
+          },
+          "zOrder": 2
+        },
+        {
+          "typeID": "__group__",
+          "x": 230,
+          "y": 185,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "oop@oop"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "OOP",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#4f7a28",
+                    "backgroundAlpha": 1.0
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 390,
+          "y": 185,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "random@random"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Random",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#4f7a28",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 372,
+          "y": 207,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "__group__",
+          "x": 550,
+          "y": 185,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "coverage@coverage"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Coverage",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#4f7a28",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 532,
+          "y": 207,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "__group__",
+          "x": 710,
+          "y": 185,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "assertions@assertions"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Assertions",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#4f7a28",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 692,
+          "y": 207,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "Arrow",
+          "x": 190,
+          "y": 207,
+          "measuredW": 30,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 30,
+              "y": 0
+            },
+            "color": "#4f7a28",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "Canvas",
+          "x": 30,
+          "y": 255,
+          "measuredW": 860,
+          "measuredH": 70,
+          "properties": {
+            "color": "#f8fafc",
+            "borderColor": "#e2e8f0",
+            "backgroundAlpha": 0.5
+          },
+          "zOrder": 0
+        },
+        {
+          "typeID": "TextInput",
+          "x": 50,
+          "y": 265,
+          "measuredW": 150,
+          "measuredH": 45,
+          "properties": {
+            "text": "UVM",
+            "size": 15,
+            "bold": true,
+            "color": "#874efe",
+            "borderColor": "#874efe"
+          },
+          "zOrder": 2
+        },
+        {
+          "typeID": "__group__",
+          "x": 230,
+          "y": 265,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "architecture@architecture"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Architecture",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#874efe",
+                    "backgroundAlpha": 1.0
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 390,
+          "y": 265,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "sequences@sequences"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Sequences",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#874efe",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 372,
+          "y": 287,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "__group__",
+          "x": 550,
+          "y": 265,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "scoreboard@scoreboard"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Scoreboard",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#874efe",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 532,
+          "y": 287,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "__group__",
+          "x": 710,
+          "y": 265,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "reg-layer@reg-layer"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Reg Layer",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#874efe",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 692,
+          "y": 287,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "Arrow",
+          "x": 190,
+          "y": 287,
+          "measuredW": 30,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 30,
+              "y": 0
+            },
+            "color": "#874efe",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "Canvas",
+          "x": 30,
+          "y": 335,
+          "measuredW": 860,
+          "measuredH": 70,
+          "properties": {
+            "color": "#f8fafc",
+            "borderColor": "#e2e8f0",
+            "backgroundAlpha": 0.5
+          },
+          "zOrder": 0
+        },
+        {
+          "typeID": "TextInput",
+          "x": 50,
+          "y": 345,
+          "measuredW": 150,
+          "measuredH": 45,
+          "properties": {
+            "text": "Advanced",
+            "size": 15,
+            "bold": true,
+            "color": "#e47911",
+            "borderColor": "#e47911"
+          },
+          "zOrder": 2
+        },
+        {
+          "typeID": "__group__",
+          "x": 230,
+          "y": 345,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "formal@formal"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Formal",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#e47911",
+                    "backgroundAlpha": 1.0
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "__group__",
+          "x": 390,
+          "y": 345,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "emulation@emulation"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Emulation",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#e47911",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 372,
+          "y": 367,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "__group__",
+          "x": 550,
+          "y": 345,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "perf-dv@perf-dv"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Perf DV",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#e47911",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 532,
+          "y": 367,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "__group__",
+          "x": 710,
+          "y": 345,
+          "measuredW": 140,
+          "measuredH": 45,
+          "zOrder": 2,
+          "properties": {
+            "controlName": "gate-sims@gate-sims"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "typeID": "TextInput",
+                  "x": 0,
+                  "y": 0,
+                  "measuredW": 140,
+                  "measuredH": 45,
+                  "properties": {
+                    "text": "Gate Sims",
+                    "size": 13,
+                    "color": "#ffffff",
+                    "borderColor": "#e47911",
+                    "backgroundAlpha": 0.9
+                  },
+                  "zOrder": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "typeID": "Arrow",
+          "x": 692,
+          "y": 367,
+          "measuredW": 16,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 16,
+              "y": 0
+            },
+            "color": "#94a3b8",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        },
+        {
+          "typeID": "Arrow",
+          "x": 190,
+          "y": 367,
+          "measuredW": 30,
+          "measuredH": 2,
+          "properties": {
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 1,
+              "y": 0
+            },
+            "p2": {
+              "x": 30,
+              "y": 0
+            },
+            "color": "#e47911",
+            "stroke": "solid"
+          },
+          "zOrder": 1
+        }
+      ]
+    }
+  }
+}

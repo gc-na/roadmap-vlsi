@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getOpenGraphImageUrl } from '../../lib/open-graph';
+
+export const prerender = false;
+
+interface Params extends Record<string, string | undefined> {
+  roadmapId: string;
+}
+
+const { roadmapId } = Astro.params as Params;
+
+const ogImageUrl = getOpenGraphImageUrl({
+  group: 'roadmap',
+  resourceId: roadmapId,
+});
+---
+
+<BaseLayout
+  permalink={`/${roadmapId}/svg`}
+  title={`${roadmapId} Roadmap - VLSI Korea`}
+  ogImageUrl={ogImageUrl}
+  resourceId={roadmapId}
+  resourceType='roadmap'
+>
+  <div class='container py-10'>
+    <div
+      id='resource-svg-wrap'
+      data-resource-id={roadmapId}
+      data-resource-type='roadmap'
+      class='flex w-full flex-col justify-center'
+    >
+      <div id='resource-loader' class='flex justify-center py-20'>
+        <div class='h-12 w-12 animate-spin rounded-full border-4 border-gray-200 border-t-black'></div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  import { renderRoadmap } from '../../lib/roadmap-renderer-client';
+  renderRoadmap();
+</script>

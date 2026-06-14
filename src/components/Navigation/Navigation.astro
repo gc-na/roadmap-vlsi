@@ -1,0 +1,87 @@
+---
+import Icon from '../AstroIcon.astro';
+
+// Mobile menu shows every roadmap; desktop only has room for the first few.
+const NAV_LINKS = [
+  { href: '/', label: 'Home' },
+  { href: '/sta', label: 'STA' },
+  { href: '/physical-design', label: 'PD' },
+  { href: '/rtl-design', label: 'RTL' },
+  { href: '/design-verification', label: 'DV' },
+  { href: '/analog-design', label: 'Analog' },
+  { href: '/dft', label: 'DFT' },
+  { href: '/eda-toolflow', label: 'EDA Toolflow' },
+];
+const DESKTOP_NAV_LINKS = NAV_LINKS.slice(0, 5);
+const NAV_LINK_CLASS = 'text-sm text-gray-300 hover:text-white transition-colors';
+---
+
+<div class='bg-slate-900 py-5 text-white sm:py-8'>
+  <nav class='container flex items-center justify-between'>
+    <div class='flex items-center gap-5'>
+      <a
+        class='flex items-center text-lg font-medium text-white'
+        href='/'
+        aria-label='VLSI Korea Roadmaps'
+      >
+        <span class='text-xl font-bold tracking-tight'>VLSI <span class='text-blue-400'>Korea</span> Roadmaps</span>
+      </a>
+
+      <div class='hidden items-center gap-4 sm:flex'>
+        {DESKTOP_NAV_LINKS.map((link) => (
+          <a href={link.href} class={NAV_LINK_CLASS}>{link.label}</a>
+        ))}
+      </div>
+    </div>
+
+    <div class='flex items-center gap-3'>
+      <a
+        href='https://vlsi.kr'
+        class='hidden text-sm text-gray-400 hover:text-white transition-colors sm:inline'
+        target='_blank'
+      >
+        vlsi.kr →
+      </a>
+
+      <button
+        type='button'
+        id='mobile-nav-toggle'
+        class='flex items-center justify-center text-gray-300 hover:text-white sm:hidden'
+        aria-label='Toggle navigation'
+        aria-expanded='false'
+        aria-controls='mobile-nav-menu'
+      >
+        <Icon icon='hamburger' class='h-6 w-6' id='mobile-nav-icon-open' />
+        <Icon icon='close' class='hidden h-6 w-6' id='mobile-nav-icon-close' />
+      </button>
+    </div>
+  </nav>
+
+  <div id='mobile-nav-menu' class='container hidden flex-col gap-3 pt-4 sm:hidden'>
+    {NAV_LINKS.map((link) => (
+      <a href={link.href} class={NAV_LINK_CLASS}>{link.label}</a>
+    ))}
+    <a
+      href='https://vlsi.kr'
+      class='text-sm text-gray-400 hover:text-white transition-colors'
+      target='_blank'
+    >
+      vlsi.kr →
+    </a>
+  </div>
+</div>
+
+<script>
+  const toggle = document.getElementById('mobile-nav-toggle');
+  const menu = document.getElementById('mobile-nav-menu');
+  const iconOpen = document.getElementById('mobile-nav-icon-open');
+  const iconClose = document.getElementById('mobile-nav-icon-close');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = menu?.classList.toggle('flex');
+    menu?.classList.toggle('hidden');
+    iconOpen?.classList.toggle('hidden');
+    iconClose?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(Boolean(isOpen)));
+  });
+</script>

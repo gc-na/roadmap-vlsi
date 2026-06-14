@@ -1,0 +1,14 @@
+# Mem BIST
+
+Memory built-in self-test (MBIST) is on-chip hardware that autonomously tests embedded SRAMs, register files, and other memory arrays without relying on external ATPG patterns shifted through scan chains, which would be impractically slow and ineffective for memories. An MBIST controller generates address sequences, write/read data patterns, and compares read-back data against expected values using a finite-state machine implemented in dedicated test logic adjacent to (or shared across) the memory instances. Because memory defects have failure mechanisms distinct from random logic (e.g., cell stuck bits, bit-line/word-line shorts and opens, coupling faults between adjacent cells, sense-amp offset issues, address decoder faults), MBIST uses specialized algorithms rather than stuck-at fault patterns.
+
+Standard memory test algorithms include March tests (March C-, March B, March SS), which apply structured sequences of read/write operations with specific address orderings (ascending and descending) designed to detect stuck-at, transition, coupling, and address decoder faults with a known fault coverage and complexity that scales linearly with memory size (e.g., March C- is 11N operations for a memory of N cells). Algorithms targeting coupling faults specifically (such as those derived from the GALPAT or Walking 1/0 family) are used selectively for smaller, high-risk arrays since their complexity can scale as N log N or N^2. MBIST controllers are often configurable to select among multiple algorithms and to support diagnostic modes that report the failing address, bit, and operation for redundancy repair or failure analysis.
+
+For memories with built-in redundancy (spare rows/columns common in large SRAM arrays and embedded DRAM), MBIST is paired with built-in redundancy analysis (BIRA) and built-in self-repair (BISR), which identify failing cells during test and program fuses or anti-fuses (or non-volatile latches) to remap addresses to spare elements, improving yield significantly for large memory-dominated SoCs. MBIST is typically integrated into the overall test access mechanism so it can be triggered via JTAG/IEEE 1500 wrappers, run during wafer sort and final test, and also invoked at power-on in mission mode for in-field memory health checks in safety-critical (automotive, ISO 26262) applications.
+
+Visit the following resources to learn more:
+
+- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [@course@memory BIST March algorithm SRAM test](https://www.udemy.com/courses/search/?q=memory+BIST+March+algorithm+SRAM+test)
+- [@video@memory BIST March test algorithm tutorial](https://www.youtube.com/results?search_query=memory+BIST+March+test+algorithm+tutorial)
+- [@article@memory BIST](https://vlsi.kr/?s=memory+BIST)

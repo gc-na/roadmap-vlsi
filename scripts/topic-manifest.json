@@ -1,0 +1,576 @@
+{
+  "sta": [
+    {
+      "slug": "digital-logic",
+      "text": "Digital Logic",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "setup-hold",
+      "text": "Setup/Hold",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "clock-basics",
+      "text": "Clock Basics",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "timing-arcs",
+      "text": "Timing Arcs",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "timing-paths",
+      "text": "Timing Paths",
+      "category": "Core STA"
+    },
+    {
+      "slug": "slack-analysis",
+      "text": "Slack Analysis",
+      "category": "Core STA"
+    },
+    {
+      "slug": "clock-domains",
+      "text": "Clock Domains",
+      "category": "Core STA"
+    },
+    {
+      "slug": "exceptions",
+      "text": "Exceptions",
+      "category": "Core STA"
+    },
+    {
+      "slug": "ocv-aocv",
+      "text": "OCV/AOCV",
+      "category": "Advanced"
+    },
+    {
+      "slug": "crosstalk",
+      "text": "Crosstalk",
+      "category": "Advanced"
+    },
+    {
+      "slug": "mmmc",
+      "text": "MMMC",
+      "category": "Advanced"
+    },
+    {
+      "slug": "signoff",
+      "text": "Signoff",
+      "category": "Advanced"
+    },
+    {
+      "slug": "primetime",
+      "text": "PrimeTime",
+      "category": "Tooling"
+    },
+    {
+      "slug": "tempus",
+      "text": "Tempus",
+      "category": "Tooling"
+    },
+    {
+      "slug": "opensta",
+      "text": "OpenSTA",
+      "category": "Tooling"
+    },
+    {
+      "slug": "tcl-scripting",
+      "text": "Tcl Scripting",
+      "category": "Tooling"
+    }
+  ],
+  "physical-design": [
+    {
+      "slug": "cmos-basics",
+      "text": "CMOS Basics",
+      "category": "Foundations"
+    },
+    {
+      "slug": "standard-cells",
+      "text": "Standard Cells",
+      "category": "Foundations"
+    },
+    {
+      "slug": "layers",
+      "text": "Layers",
+      "category": "Foundations"
+    },
+    {
+      "slug": "pd-flow",
+      "text": "PD Flow",
+      "category": "Foundations"
+    },
+    {
+      "slug": "die-area",
+      "text": "Die Area",
+      "category": "Floorplan"
+    },
+    {
+      "slug": "macros",
+      "text": "Macros",
+      "category": "Floorplan"
+    },
+    {
+      "slug": "power-grid",
+      "text": "Power Grid",
+      "category": "Floorplan"
+    },
+    {
+      "slug": "pins",
+      "text": "Pins",
+      "category": "Floorplan"
+    },
+    {
+      "slug": "placement",
+      "text": "Placement",
+      "category": "Place & Route"
+    },
+    {
+      "slug": "cts",
+      "text": "CTS",
+      "category": "Place & Route"
+    },
+    {
+      "slug": "routing",
+      "text": "Routing",
+      "category": "Place & Route"
+    },
+    {
+      "slug": "eco",
+      "text": "ECO",
+      "category": "Place & Route"
+    },
+    {
+      "slug": "drc-lvs",
+      "text": "DRC/LVS",
+      "category": "Signoff"
+    },
+    {
+      "slug": "ir-drop",
+      "text": "IR Drop",
+      "category": "Signoff"
+    },
+    {
+      "slug": "em",
+      "text": "EM",
+      "category": "Signoff"
+    },
+    {
+      "slug": "tapeout",
+      "text": "Tapeout",
+      "category": "Signoff"
+    }
+  ],
+  "rtl-design": [
+    {
+      "slug": "boolean-logic",
+      "text": "Boolean Logic",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "combinational",
+      "text": "Combinational",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "sequential",
+      "text": "Sequential",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "fsm",
+      "text": "FSM",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "verilog",
+      "text": "Verilog",
+      "category": "HDL"
+    },
+    {
+      "slug": "systemverilog",
+      "text": "SystemVerilog",
+      "category": "HDL"
+    },
+    {
+      "slug": "vhdl",
+      "text": "VHDL",
+      "category": "HDL"
+    },
+    {
+      "slug": "synthesis",
+      "text": "Synthesis",
+      "category": "HDL"
+    },
+    {
+      "slug": "pipelining",
+      "text": "Pipelining",
+      "category": "Advanced"
+    },
+    {
+      "slug": "cdc",
+      "text": "CDC",
+      "category": "Advanced"
+    },
+    {
+      "slug": "reset",
+      "text": "Reset",
+      "category": "Advanced"
+    },
+    {
+      "slug": "low-power",
+      "text": "Low Power",
+      "category": "Advanced"
+    },
+    {
+      "slug": "assertions",
+      "text": "Assertions",
+      "category": "DV-Aware"
+    },
+    {
+      "slug": "lint",
+      "text": "Lint",
+      "category": "DV-Aware"
+    },
+    {
+      "slug": "synthesis-dv-aware",
+      "text": "Synthesis",
+      "category": "DV-Aware"
+    },
+    {
+      "slug": "formal",
+      "text": "Formal",
+      "category": "DV-Aware"
+    }
+  ],
+  "design-verification": [
+    {
+      "slug": "mindset",
+      "text": "Mindset",
+      "category": "Foundations"
+    },
+    {
+      "slug": "testbench",
+      "text": "Testbench",
+      "category": "Foundations"
+    },
+    {
+      "slug": "simulation",
+      "text": "Simulation",
+      "category": "Foundations"
+    },
+    {
+      "slug": "bugs",
+      "text": "Bugs",
+      "category": "Foundations"
+    },
+    {
+      "slug": "oop",
+      "text": "OOP",
+      "category": "SV Testbench"
+    },
+    {
+      "slug": "random",
+      "text": "Random",
+      "category": "SV Testbench"
+    },
+    {
+      "slug": "coverage",
+      "text": "Coverage",
+      "category": "SV Testbench"
+    },
+    {
+      "slug": "assertions",
+      "text": "Assertions",
+      "category": "SV Testbench"
+    },
+    {
+      "slug": "architecture",
+      "text": "Architecture",
+      "category": "UVM"
+    },
+    {
+      "slug": "sequences",
+      "text": "Sequences",
+      "category": "UVM"
+    },
+    {
+      "slug": "scoreboard",
+      "text": "Scoreboard",
+      "category": "UVM"
+    },
+    {
+      "slug": "reg-layer",
+      "text": "Reg Layer",
+      "category": "UVM"
+    },
+    {
+      "slug": "formal",
+      "text": "Formal",
+      "category": "Advanced"
+    },
+    {
+      "slug": "emulation",
+      "text": "Emulation",
+      "category": "Advanced"
+    },
+    {
+      "slug": "perf-dv",
+      "text": "Perf DV",
+      "category": "Advanced"
+    },
+    {
+      "slug": "gate-sims",
+      "text": "Gate Sims",
+      "category": "Advanced"
+    }
+  ],
+  "analog-design": [
+    {
+      "slug": "physics",
+      "text": "Physics",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "small-signal",
+      "text": "Small-Signal",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "freq-response",
+      "text": "Freq Response",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "noise",
+      "text": "Noise",
+      "category": "Fundamentals"
+    },
+    {
+      "slug": "op-amp",
+      "text": "Op-Amp",
+      "category": "Core Circuits"
+    },
+    {
+      "slug": "bandgap",
+      "text": "Bandgap",
+      "category": "Core Circuits"
+    },
+    {
+      "slug": "mirrors",
+      "text": "Mirrors",
+      "category": "Core Circuits"
+    },
+    {
+      "slug": "comparator",
+      "text": "Comparator",
+      "category": "Core Circuits"
+    },
+    {
+      "slug": "pll-dll",
+      "text": "PLL/DLL",
+      "category": "Advanced"
+    },
+    {
+      "slug": "adc-dac",
+      "text": "ADC/DAC",
+      "category": "Advanced"
+    },
+    {
+      "slug": "ldo",
+      "text": "LDO",
+      "category": "Advanced"
+    },
+    {
+      "slug": "esd",
+      "text": "ESD",
+      "category": "Advanced"
+    },
+    {
+      "slug": "matching",
+      "text": "Matching",
+      "category": "Layout"
+    },
+    {
+      "slug": "extraction",
+      "text": "Extraction",
+      "category": "Layout"
+    },
+    {
+      "slug": "post-sim",
+      "text": "Post-Sim",
+      "category": "Layout"
+    },
+    {
+      "slug": "em-ir",
+      "text": "EM/IR",
+      "category": "Layout"
+    }
+  ],
+  "dft": [
+    {
+      "slug": "fault-models",
+      "text": "Fault Models",
+      "category": "Foundations"
+    },
+    {
+      "slug": "economics",
+      "text": "Economics",
+      "category": "Foundations"
+    },
+    {
+      "slug": "defects",
+      "text": "Defects",
+      "category": "Foundations"
+    },
+    {
+      "slug": "dft-flow",
+      "text": "DFT Flow",
+      "category": "Foundations"
+    },
+    {
+      "slug": "scan-chains",
+      "text": "Scan Chains",
+      "category": "Scan & ATPG"
+    },
+    {
+      "slug": "atpg",
+      "text": "ATPG",
+      "category": "Scan & ATPG"
+    },
+    {
+      "slug": "transition",
+      "text": "Transition",
+      "category": "Scan & ATPG"
+    },
+    {
+      "slug": "compression",
+      "text": "Compression",
+      "category": "Scan & ATPG"
+    },
+    {
+      "slug": "mem-bist",
+      "text": "Mem BIST",
+      "category": "BIST & JTAG"
+    },
+    {
+      "slug": "logic-bist",
+      "text": "Logic BIST",
+      "category": "BIST & JTAG"
+    },
+    {
+      "slug": "jtag-1149-1",
+      "text": "JTAG 1149.1",
+      "category": "BIST & JTAG"
+    },
+    {
+      "slug": "ieee-1500",
+      "text": "IEEE 1500",
+      "category": "BIST & JTAG"
+    },
+    {
+      "slug": "soc-test",
+      "text": "SoC Test",
+      "category": "Advanced"
+    },
+    {
+      "slug": "analog-test",
+      "text": "Analog Test",
+      "category": "Advanced"
+    },
+    {
+      "slug": "debug",
+      "text": "Debug",
+      "category": "Advanced"
+    },
+    {
+      "slug": "yield",
+      "text": "Yield",
+      "category": "Advanced"
+    }
+  ],
+  "eda-toolflow": [
+    {
+      "slug": "flow-arch",
+      "text": "Flow Arch",
+      "category": "Methodology"
+    },
+    {
+      "slug": "tool-eval",
+      "text": "Tool Eval",
+      "category": "Methodology"
+    },
+    {
+      "slug": "methodology",
+      "text": "Methodology",
+      "category": "Methodology"
+    },
+    {
+      "slug": "qor",
+      "text": "QoR",
+      "category": "Methodology"
+    },
+    {
+      "slug": "lsf-grid",
+      "text": "LSF/Grid",
+      "category": "CAD Infra"
+    },
+    {
+      "slug": "license",
+      "text": "License",
+      "category": "CAD Infra"
+    },
+    {
+      "slug": "storage",
+      "text": "Storage",
+      "category": "CAD Infra"
+    },
+    {
+      "slug": "revision",
+      "text": "Revision",
+      "category": "CAD Infra"
+    },
+    {
+      "slug": "tcl",
+      "text": "Tcl",
+      "category": "Scripting"
+    },
+    {
+      "slug": "python",
+      "text": "Python",
+      "category": "Scripting"
+    },
+    {
+      "slug": "shell",
+      "text": "Shell",
+      "category": "Scripting"
+    },
+    {
+      "slug": "makefile",
+      "text": "Makefile",
+      "category": "Scripting"
+    },
+    {
+      "slug": "regression",
+      "text": "Regression",
+      "category": "Release"
+    },
+    {
+      "slug": "qor-track",
+      "text": "QoR Track",
+      "category": "Release"
+    },
+    {
+      "slug": "release",
+      "text": "Release",
+      "category": "Release"
+    },
+    {
+      "slug": "docs",
+      "text": "Docs",
+      "category": "Release"
+    }
+  ]
+}

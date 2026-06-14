@@ -1,0 +1,14 @@
+# Formal
+
+Formal verification uses mathematical techniques — model checking and theorem proving — to exhaustively prove or disprove properties about a design, rather than relying on simulation vectors. The two formal flows most relevant to DV are property checking (also called formal model checking) and equivalence checking. In property checking, SVA assertions written as `property`/`assert` statements are fed into a formal tool (e.g., Cadence JasperGold, Synopsys VC Formal, Siemens Questa Formal), which explores the design's entire reachable state space using techniques like BDDs, SAT/SMT solving, and bounded model checking to either prove the property holds for all possible inputs and states, or generate a concrete counterexample waveform showing exactly how it can be violated.
+
+Formal excels at proving the absence of certain bug classes that simulation struggles to hit — deadlock/livelock freedom, FIFO overflow/underflow impossibility, X-propagation safety, arbiter fairness, and protocol compliance for complex handshake state machines with deep corner cases. Because formal explores all reachable states (within the bounds of the proof), a single proven property can replace what might require millions of random simulation cycles to gain confidence in. However, formal tools face state-space explosion on large designs, so formal is typically applied at the block or unit level, often with abstraction techniques (cutpoints, black-boxing, case-splitting) to make the proof tractable.
+
+Equivalence checking (formal equivalence verification, FEV) proves that two representations of a design — RTL versus a gate-level netlist after synthesis, or RTL before and after an ECO (engineering change order) — are functionally equivalent without running any simulation, by formally comparing their logic cones. This is standard practice after synthesis and after any late RTL patches to gate-level netlists. Connectivity checking (verifying every pin connects to its intended net across the full SoC, often using formal-based tools) is another widely used application. A growing area is "formal apps" — pre-packaged formal analyses for specific bug classes (X-propagation, clock-domain crossing, dead code, register reset checks) that require minimal setup and are run as a sign-off gate alongside simulation regressions.
+
+Visit the following resources to learn more:
+
+- [@book@Formal Verification: An Essential Toolkit for Modern VLSI Design](https://www.amazon.com/s?k=Formal+Verification+An+Essential+Toolkit+for+Modern+VLSI+Design+Erik+Seligman)
+- [@course@formal verification model checking](https://www.udemy.com/courses/search/?q=formal+verification+model+checking)
+- [@video@formal verification JasperGold tutorial](https://www.youtube.com/results?search_query=formal+verification+JasperGold+tutorial)
+- [@article@formal verification](https://vlsi.kr/?s=formal+verification)
