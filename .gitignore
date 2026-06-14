@@ -31,3 +31,5 @@ tests-examples
 *.csveditor/
 
 packages/editor
+# Vercel
+.vercel
