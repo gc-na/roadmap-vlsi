@@ -4,6 +4,7 @@ import Icon from '../AstroIcon.astro';
 // Mobile menu shows every roadmap; desktop only has room for the first few.
 const NAV_LINKS = [
   { href: '/', label: 'Home' },
+  { href: '/career-graph', label: 'Career Graph' },
   { href: '/sta', label: 'STA' },
   { href: '/physical-design', label: 'PD' },
   { href: '/rtl-design', label: 'RTL' },
@@ -11,8 +12,9 @@ const NAV_LINKS = [
   { href: '/analog-design', label: 'Analog' },
   { href: '/dft', label: 'DFT' },
   { href: '/eda-toolflow', label: 'EDA Toolflow' },
+  { href: '/resume-tips', label: 'Resume Tips' },
 ];
-const DESKTOP_NAV_LINKS = NAV_LINKS.slice(0, 5);
+const DESKTOP_NAV_LINKS = [NAV_LINKS[0], NAV_LINKS[1], NAV_LINKS[2], NAV_LINKS[3], NAV_LINKS[4], NAV_LINKS[9]];
 const NAV_LINK_CLASS = 'text-sm text-gray-300 hover:text-white transition-colors';
 ---
 

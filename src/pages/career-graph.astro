@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CareerGraph } from '../components/CareerGraph/CareerGraph';
+import { nodes, edges } from '../data/career-graph';
+
+const roleCount = nodes.filter((n) => n.type === 'role').length;
+const skillCount = nodes.filter((n) => n.type === 'skill').length;
+const toolCount = nodes.filter((n) => n.type === 'tool').length;
+---
+
+<BaseLayout
+  title='Semiconductor Career Graph — VLSI Korea'
+  description='An interactive knowledge graph of semiconductor design careers: roles, skills, tools, concepts, and career progressions. Synthesized from job-description analysis.'
+  permalink='/career-graph'
+>
+  <div class='bg-linear-to-b from-blue-950 to-black'>
+    <div class='container py-12 text-white sm:py-16'>
+      <h1 class='mb-3 text-3xl font-bold sm:text-4xl'>Semiconductor Career Graph</h1>
+      <p class='max-w-2xl text-base text-gray-300 sm:text-lg'>
+        Not a linear checklist — an interconnected map of how {roleCount} roles,
+        {skillCount} skill areas, {toolCount} EDA tools, key concepts, and career
+        levels relate. Synthesized from job-description analysis across NVIDIA,
+        Intel, Synopsys, Cadence, Samsung, TI, AMD, Qualcomm, Apple, and Micron.
+      </p>
+    </div>
+  </div>
+
+  <div class='container py-8'>
+    <CareerGraph client:only='react' />
+
+    <div class='mt-8 grid max-w-3xl gap-4 text-sm text-slate-600 sm:grid-cols-2'>
+      <div>
+        <h2 class='mb-1 font-semibold text-slate-900'>How to read it</h2>
+        <ul class='list-disc space-y-1 pl-5'>
+          <li><strong>Domains</strong> group related job roles.</li>
+          <li><strong>Roles</strong> point to the <strong>skills</strong> they require.</li>
+          <li><strong>Skills</strong> have prerequisites and contain <strong>concepts</strong>.</li>
+          <li><strong>Tools</strong> hang off the skills that use them.</li>
+          <li><strong>Career levels</strong> show the progression ladder.</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class='mb-1 font-semibold text-slate-900'>Tips</h2>
+        <ul class='list-disc space-y-1 pl-5'>
+          <li>Click any node to highlight its direct connections.</li>
+          <li>Node size reflects how often it appears in job postings.</li>
+          <li>Use the filter chips to focus on one layer at a time.</li>
+          <li>Click a role or skill node, then "Open roadmap" for details.</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class='mt-6 max-w-3xl text-xs italic text-slate-400'>
+      Data source: JD citation analysis of semiconductor design job postings
+      (2024–2025). Demand scores are relative posting-frequency estimates, not
+      absolute counts.
+    </p>
+  </div>
+</BaseLayout>
