@@ -6,9 +6,14 @@ For ATPG-detected failures, automated diagnosis tools analyze the pattern of fai
 
 Debug also encompasses bring-up of new silicon: characterizing a first-pass chip against simulation, identifying systematic issues (e.g., a clock domain crossing bug that only manifests at certain voltage/frequency corners), and correlating tester fail signatures across many units to distinguish random defects from systematic design or process issues that require a respin or process tweak. Effective debug depends on DFT decisions made early in the flow, adequate scan chain granularity and observability, sufficient trace buffer depth, and clear documentation (bug tracking correlated with scan chain/cell names) so that a failure observed on the tester can be traced back to a specific RTL signal or transistor-level structure.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Digital Systems Testing and Testable Design](https://www.amazon.com/s?k=Digital+Systems+Testing+and+Testable+Design+Abramovici+Breuer+Friedman)
-- [@course@silicon debug failure analysis scan diagnosis](https://www.udemy.com/courses/search/?q=silicon+debug+failure+analysis+scan+diagnosis)
-- [@video@silicon debug scan diagnosis failure analysis](https://www.youtube.com/results?search_query=silicon+debug+scan+diagnosis+failure+analysis)
-- [@article@silicon debug diagnosis](https://vlsi.kr/?s=debug)
+- [Book] Digital Systems Testing and Testable Design(https://www.amazon.com/s?k=Digital+Systems+Testing+and+Testable+Design+Abramovici+Breuer+Friedman)
+- [Coursera] silicon debug failure analysis scan diagnosis(https://www.udemy.com/courses/search/?q=silicon+debug+failure+analysis+scan+diagnosis)
+- [YouTube] silicon debug scan diagnosis failure analysis(https://www.youtube.com/results?search_query=silicon+debug+scan+diagnosis+failure+analysis)

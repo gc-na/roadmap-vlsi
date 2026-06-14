@@ -6,9 +6,14 @@ Defects manifest electrically in several characteristic ways. A short (bridging 
 
 Because no single fault model captures every defect type, modern test programs use a layered approach: stuck-at patterns catch many hard shorts and opens, transition/delay patterns catch resistive and timing-related defects, and cell-aware or bridging fault models target defects specific to the transistor-level implementation of standard cells. Defect-based test methodologies use inline silicon failure analysis (layout extraction of likely defect locations) to generate fault lists that better reflect actual process defect distributions, improving the correlation between simulated fault coverage and real-world DPPM.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Digital Systems Testing and Testable Design](https://www.amazon.com/s?k=Digital+Systems+Testing+and+Testable+Design+Abramovici+Breuer+Friedman)
-- [@course@semiconductor defects failure mechanisms](https://www.udemy.com/courses/search/?q=semiconductor+defects+failure+mechanisms)
-- [@video@semiconductor defect mechanisms bridging open](https://www.youtube.com/results?search_query=semiconductor+defect+mechanisms+bridging+open)
-- [@article@defects DFT yield](https://vlsi.kr/?s=defects)
+- [Book] Digital Systems Testing and Testable Design(https://www.amazon.com/s?k=Digital+Systems+Testing+and+Testable+Design+Abramovici+Breuer+Friedman)
+- [Coursera] semiconductor defects failure mechanisms(https://www.udemy.com/courses/search/?q=semiconductor+defects+failure+mechanisms)
+- [YouTube] semiconductor defect mechanisms bridging open(https://www.youtube.com/results?search_query=semiconductor+defect+mechanisms+bridging+open)

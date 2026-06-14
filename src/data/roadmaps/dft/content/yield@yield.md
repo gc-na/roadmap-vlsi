@@ -6,9 +6,14 @@ Yield learning relies heavily on data collected during test: bin-out distributio
 
 The relationship between fault coverage and DPPM is often modeled empirically: each additional percentage point of coverage near 100% removes a disproportionate share of remaining defective die that would otherwise escape, which is why mature high-volume products push for coverage well above 99% despite diminishing returns in pattern count. Adaptive test techniques, adjusting test limits, voltage/frequency targets, or even which tests run based on real-time yield data and statistical correlations (part average testing, outlier detection), are increasingly used to improve yield without sacrificing quality. DFT engineers work closely with yield/quality teams to ensure test programs generate the granularity of pass/fail and parametric data needed to drive these yield improvement loops across the product's production lifetime.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@semiconductor yield analysis test data](https://www.udemy.com/courses/search/?q=semiconductor+yield+analysis+test+data)
-- [@video@semiconductor yield analysis DPPM wafer map](https://www.youtube.com/results?search_query=semiconductor+yield+analysis+DPPM+wafer+map)
-- [@article@yield analysis test](https://vlsi.kr/?s=yield)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] semiconductor yield analysis test data(https://www.udemy.com/courses/search/?q=semiconductor+yield+analysis+test+data)
+- [YouTube] semiconductor yield analysis DPPM wafer map(https://www.youtube.com/results?search_query=semiconductor+yield+analysis+DPPM+wafer+map)

@@ -6,9 +6,14 @@ In practice this means writing extraction scripts (commonly Python) that run aft
 
 QoR tracking is central to release decisions: before promoting a flow change or library update to the production branch, engineers compare QoR across the regression suite against the previous baseline, and any non-trivial QoR delta needs to be explained and approved. At the project level, QoR tracking feeds milestone reviews — is the chip converging toward timing closure on schedule, is area creeping up block by block, is power within budget — and historical QoR data is also valuable for post-mortems, helping correlate a late-stage timing problem with the flow or library change that introduced it weeks earlier.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Data Visualization with Python and JavaScript](https://www.amazon.com/s?k=data+visualization+dashboard+Python+Grafana)
-- [@course@data dashboard Python Grafana](https://www.udemy.com/courses/search/?q=Python+dashboard+Grafana+data+visualization)
-- [@video@QoR tracking dashboard chip design](https://www.youtube.com/results?search_query=QoR+tracking+dashboard+timing+area+power+trends)
-- [@article@QoR tracking dashboard](https://vlsi.kr/?s=QoR+tracking)
+- [Book] Data Visualization with Python and JavaScript(https://www.amazon.com/s?k=data+visualization+dashboard+Python+Grafana)
+- [Coursera] data dashboard Python Grafana(https://www.udemy.com/courses/search/?q=Python+dashboard+Grafana+data+visualization)
+- [YouTube] QoR tracking dashboard chip design(https://www.youtube.com/results?search_query=QoR+tracking+dashboard+timing+area+power+trends)

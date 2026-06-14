@@ -6,9 +6,14 @@ A central concern is reproducibility: given a specific tag or commit of the flow
 
 Branching strategy matters at scale: a typical pattern has a stable "release" branch used by all block teams, a development branch where methodology engineers integrate and test new features, and short-lived feature branches for individual changes, with merges gated by regression passing. Revision control also intersects with IP/library versioning — when a foundry library or hard macro is updated, that update needs its own revision identifier so designs can pin to a known-good version and upgrade deliberately. Engineers working on revision infrastructure build tooling around diffing constraint files, tracking which blocks are on which flow version, and auditing changes that affect QoR or signoff results.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Pro Git](https://www.amazon.com/s?k=Pro+Git+version+control+Scott+Chacon)
-- [@course@Git version control](https://www.udemy.com/courses/search/?q=Git+version+control+for+engineers)
-- [@video@Git branching strategy for hardware teams](https://www.youtube.com/results?search_query=Git+version+control+chip+design+flow)
-- [@article@revision control design flow](https://vlsi.kr/?s=revision+control)
+- [Book] Pro Git(https://www.amazon.com/s?k=Pro+Git+version+control+Scott+Chacon)
+- [Coursera] Git version control(https://www.udemy.com/courses/search/?q=Git+version+control+for+engineers)
+- [YouTube] Git branching strategy for hardware teams(https://www.youtube.com/results?search_query=Git+version+control+chip+design+flow)

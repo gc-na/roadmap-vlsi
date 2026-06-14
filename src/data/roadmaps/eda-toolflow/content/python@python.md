@@ -6,9 +6,14 @@ Python's ecosystem makes it well suited for the "glue" layer: launching jobs ont
 
 Python is also used for data manipulation tasks that Tcl handles awkwardly: parsing and transforming SDC, LEF/DEF, or SPEF files with custom parsers or libraries, generating constraint files programmatically from spreadsheets or JSON configs (e.g., expanding a table of clock definitions into hundreds of `create_clock`/`set_clock_uncertainty` commands), and validating that generated constraint files meet methodology rules before they're checked in. Familiarity with virtual environments, packaging internal tools for reuse across teams, and writing maintainable, tested code (since flow infrastructure scripts are run thousands of times and a bug can silently corrupt QoR data across an entire regression) are important skills for Python in this domain.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Automate the Boring Stuff with Python](https://www.amazon.com/s?k=Automate+the+Boring+Stuff+with+Python+Al+Sweigart)
-- [@course@Python automation scripting](https://www.udemy.com/courses/search/?q=Python+automation+scripting+for+engineers)
-- [@video@Python scripting for EDA automation](https://www.youtube.com/results?search_query=Python+scripting+for+EDA+automation+chip+design)
-- [@article@Python automation EDA](https://vlsi.kr/?s=Python+automation)
+- [Book] Automate the Boring Stuff with Python(https://www.amazon.com/s?k=Automate+the+Boring+Stuff+with+Python+Al+Sweigart)
+- [Coursera] Python automation scripting(https://www.udemy.com/courses/search/?q=Python+automation+scripting+for+engineers)
+- [YouTube] Python scripting for EDA automation(https://www.youtube.com/results?search_query=Python+scripting+for+EDA+automation+chip+design)

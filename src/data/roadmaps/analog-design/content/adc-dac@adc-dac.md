@@ -6,9 +6,14 @@ Key static specifications include resolution, INL/DNL (integral and differential
 
 Critical non-ideal effects include capacitor/resistor mismatch (driving DNL and requiring calibration or redundancy in advanced SAR designs), comparator offset and noise (setting the effective LSB floor), sampling switch nonlinearity and kT/C noise, and clock jitter (which translates to sampling-time error, particularly impactful for high-frequency input signals). Calibration techniques — foreground (one-time trim) and background (continuously adaptive) — are increasingly used to relax analog matching requirements and shift complexity into the digital domain.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Understanding Delta-Sigma Data Converters](https://www.amazon.com/s?k=Understanding+Delta-Sigma+Data+Converters+Schreier+Temes)
-- [@course@ADC DAC design data converters](https://www.udemy.com/courses/search/?q=ADC+DAC+design+data+converters)
-- [@video@SAR ADC pipeline ADC sigma delta design](https://www.youtube.com/results?search_query=SAR+ADC+pipeline+ADC+sigma+delta+design)
-- [@article@ADC DAC design](https://vlsi.kr/?s=ADC+DAC+design)
+- [Book] Understanding Delta-Sigma Data Converters(https://www.amazon.com/s?k=Understanding+Delta-Sigma+Data+Converters+Schreier+Temes)
+- [Coursera] ADC DAC design data converters(https://www.udemy.com/courses/search/?q=ADC+DAC+design+data+converters)
+- [YouTube] SAR ADC pipeline ADC sigma delta design(https://www.youtube.com/results?search_query=SAR+ADC+pipeline+ADC+sigma+delta+design)

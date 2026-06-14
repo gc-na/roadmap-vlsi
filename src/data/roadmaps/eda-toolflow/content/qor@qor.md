@@ -6,9 +6,14 @@ Tracking QoR requires extracting these metrics consistently from tool log files 
 
 QoR work also involves defining what "good" looks like for a given block: target frequency with margin, area budget against the floorplan, and power envelope against the package/thermal constraints. Engineers analyze QoR deltas when something changes — a new RTL drop, an updated library, a tool patch, or a script tweak — to catch regressions early, since a seemingly small change (like reordering optimization commands or adjusting a `set_max_delay`) can shift WNS by tens of picoseconds across hundreds of paths. Understanding how to read timing, area, and power reports, and how to attribute a QoR change to its root cause, is a core skill for anyone maintaining a design flow.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Static Timing Analysis for Nanometer Designs](https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker)
-- [@course@timing closure ASIC](https://www.udemy.com/courses/search/?q=timing+closure+ASIC+QoR)
-- [@video@QoR timing area power analysis](https://www.youtube.com/results?search_query=QoR+timing+area+power+analysis+ASIC)
-- [@article@QoR analysis](https://vlsi.kr/?s=QoR)
+- [Book] Static Timing Analysis for Nanometer Designs(https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker)
+- [Coursera] timing closure ASIC(https://www.udemy.com/courses/search/?q=timing+closure+ASIC+QoR)
+- [YouTube] QoR timing area power analysis(https://www.youtube.com/results?search_query=QoR+timing+area+power+analysis+ASIC)

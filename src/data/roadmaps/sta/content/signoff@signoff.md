@@ -6,9 +6,14 @@ A signoff timing report must show clean results (zero violations, or only explic
 
 Signoff STA also includes verification of the SDC constraints themselves — constraint consistency checks confirm that clocks are properly defined, exceptions don't conflict, and there are no unconstrained endpoints or undriven/floating clock sources. Many teams run formal constraint linting tools alongside STA to catch missing `set_input_delay`/`set_output_delay`, incorrect generated clock relationships, or overly broad false paths before they become signoff escapes. Because signoff runs are computationally expensive (often taking many hours across hundreds of scenarios on a compute farm), teams typically iterate using faster "ECO-quality" STA during convergence and reserve full signoff runs for milestone checkpoints, with the final signoff run serving as the formal gate before handing the design off for fabrication.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Static Timing Analysis for Nanometer Designs](https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
-- [@course@timing signoff VLSI tapeout](https://www.udemy.com/courses/search/?q=timing+signoff+VLSI+tapeout)
-- [@video@STA timing signoff flow tapeout](https://www.youtube.com/results?search_query=STA+timing+signoff+flow+tapeout)
-- [@article@timing signoff](https://vlsi.kr/?s=timing+signoff)
+- [Book] Static Timing Analysis for Nanometer Designs(https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
+- [Coursera] timing signoff VLSI tapeout(https://www.udemy.com/courses/search/?q=timing+signoff+VLSI+tapeout)
+- [YouTube] STA timing signoff flow tapeout(https://www.youtube.com/results?search_query=STA+timing+signoff+flow+tapeout)

@@ -6,9 +6,14 @@ The feedback loop's stability is a central design challenge: the pass transistor
 
 Key specifications include dropout voltage (minimum VIN-VOUT for regulation), PSRR across frequency (critical when powering sensitive analog blocks from a noisy digital supply), transient response (output voltage droop/overshoot during fast load steps, governed by loop bandwidth and output capacitance), quiescent current (especially important in always-on or battery-powered applications), and line/load regulation accuracy. Advanced LDOs use adaptive biasing, multiple feedback paths (fast AC path plus slow DC path), and digitally-assisted calibration to meet stringent transient and PSRR specs simultaneously.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@CMOS Mixed-Signal Circuit Design](https://www.amazon.com/s?k=CMOS+Mixed-Signal+Circuit+Design+Baker+LDO+regulator)
-- [@course@LDO regulator design analog IC](https://www.udemy.com/courses/search/?q=LDO+regulator+design+analog+IC)
-- [@video@LDO design stability PSRR transient response](https://www.youtube.com/results?search_query=LDO+design+stability+PSRR+transient+response)
-- [@article@LDO regulator design](https://vlsi.kr/?s=LDO+regulator+design)
+- [Book] CMOS Mixed-Signal Circuit Design(https://www.amazon.com/s?k=CMOS+Mixed-Signal+Circuit+Design+Baker+LDO+regulator)
+- [Coursera] LDO regulator design analog IC(https://www.udemy.com/courses/search/?q=LDO+regulator+design+analog+IC)
+- [YouTube] LDO design stability PSRR transient response(https://www.youtube.com/results?search_query=LDO+design+stability+PSRR+transient+response)

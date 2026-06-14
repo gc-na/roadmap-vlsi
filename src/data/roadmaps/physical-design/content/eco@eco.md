@@ -6,9 +6,14 @@ There are two broad categories of ECOs: functional ECOs, which change the design
 
 A critical aspect of ECO methodology is verification: any logic change must be re-verified for functional equivalence (often via formal equivalence checking against the original netlist) and any physical change must be re-checked for DRC/LVS cleanliness in the affected region, plus incremental timing signoff to confirm the fix didn't create new violations elsewhere. Late-stage ECOs, especially after tapeout-level signoff has begun ("metal-only" ECOs that avoid changing base layers to save mask costs), are tightly scoped and heavily scrutinized because the cost and risk of errors increase dramatically the closer the design is to tapeout.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Static Timing Analysis for Nanometer Designs](https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chadha)
-- [@course@ASIC ECO timing closure](https://www.udemy.com/courses/search/?q=ASIC+ECO+timing+closure)
-- [@video@ECO flow physical design explained](https://www.youtube.com/results?search_query=ECO+flow+physical+design+explained)
-- [@article@ECO physical design](https://vlsi.kr/?s=ECO)
+- [Book] Static Timing Analysis for Nanometer Designs(https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chadha)
+- [Coursera] ASIC ECO timing closure(https://www.udemy.com/courses/search/?q=ASIC+ECO+timing+closure)
+- [YouTube] ECO flow physical design explained(https://www.youtube.com/results?search_query=ECO+flow+physical+design+explained)

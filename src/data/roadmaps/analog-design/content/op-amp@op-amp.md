@@ -6,9 +6,14 @@ Key specifications include open-loop gain (DC gain, often 60-100dB), gain-bandwi
 
 Advanced techniques include rail-to-rail input/output stages, class-AB output stages for driving low-impedance loads efficiently, gain-boosting (regulated cascode) to push DC gain beyond what cascoding alone provides, and chopper/auto-zero techniques to cancel offset and 1/f noise in precision instrumentation amplifiers. Op-amp design is fundamentally an exercise in balancing gain, bandwidth, noise, power, swing, and stability — and nearly every other analog block (bandgaps, LDOs, ADCs/DACs, filters) is built around one or more amplifier cores.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Design of Analog CMOS Integrated Circuits](https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+op+amp)
-- [@course@op amp design CMOS](https://www.udemy.com/courses/search/?q=op+amp+design+CMOS)
-- [@video@two stage op amp design Miller compensation](https://www.youtube.com/results?search_query=two+stage+op+amp+design+Miller+compensation)
-- [@article@op amp design](https://vlsi.kr/?s=op+amp+design)
+- [Book] Design of Analog CMOS Integrated Circuits(https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+op+amp)
+- [Coursera] op amp design CMOS(https://www.udemy.com/courses/search/?q=op+amp+design+CMOS)
+- [YouTube] two stage op amp design Miller compensation(https://www.youtube.com/results?search_query=two+stage+op+amp+design+Miller+compensation)

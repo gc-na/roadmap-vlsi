@@ -6,9 +6,14 @@ Understanding the physical origins of parasitic capacitances (Cgs, Cgd, Cgb, jun
 
 Process technology also matters: bulk CMOS, FinFET, and SOI each present different capacitance, leakage, and matching characteristics. Analog designers must read transistor models (BSIM4, BSIM-CMG) and SPICE corner files to understand how a circuit will behave across process, voltage, and temperature (PVT) variation, since analog performance specs like gain, offset, and bandwidth are far more sensitive to device-level physics than digital logic, where only delay and leakage typically matter.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Design of Analog CMOS Integrated Circuits](https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi)
-- [@course@MOSFET device physics analog design](https://www.udemy.com/courses/search/?q=MOSFET+device+physics+analog+design)
-- [@video@MOSFET physics for analog IC design](https://www.youtube.com/results?search_query=MOSFET+physics+for+analog+IC+design)
-- [@article@MOSFET physics analog design](https://vlsi.kr/?s=MOSFET+physics+analog+design)
+- [Book] Design of Analog CMOS Integrated Circuits(https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi)
+- [Coursera] MOSFET device physics analog design(https://www.udemy.com/courses/search/?q=MOSFET+device+physics+analog+design)
+- [YouTube] MOSFET physics for analog IC design(https://www.youtube.com/results?search_query=MOSFET+physics+for+analog+IC+design)

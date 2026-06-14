@@ -6,9 +6,14 @@ For feedback amplifiers, the open-loop gain and the loop gain's frequency-depend
 
 Beyond stability, frequency response governs key specs such as gain-bandwidth product (GBW), unity-gain frequency, slew rate (large-signal response), and settling time — all critical in switched-capacitor circuits, ADC drivers, and PLL loop filters where both small-signal bandwidth and large-signal settling behavior must meet system-level timing budgets.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Design of Analog CMOS Integrated Circuits](https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+frequency+response)
-- [@course@op amp frequency response stability compensation](https://www.udemy.com/courses/search/?q=op+amp+frequency+response+stability+compensation)
-- [@video@frequency response and stability analog circuits](https://www.youtube.com/results?search_query=frequency+response+and+stability+analog+circuits)
-- [@article@frequency response compensation](https://vlsi.kr/?s=frequency+response+compensation)
+- [Book] Design of Analog CMOS Integrated Circuits(https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+frequency+response)
+- [Coursera] op amp frequency response stability compensation(https://www.udemy.com/courses/search/?q=op+amp+frequency+response+stability+compensation)
+- [YouTube] frequency response and stability analog circuits(https://www.youtube.com/results?search_query=frequency+response+and+stability+analog+circuits)

@@ -6,9 +6,14 @@ A critical piece is the adapter and predictor: a `uvm_reg_adapter` translates ab
 
 The reg layer also enables built-in test sequences that are extremely valuable for coverage of the register space itself: `uvm_reg_hw_reset_seq` checks all registers return to their specified reset values, `uvm_reg_bit_bash_seq` walks through each writable bit individually to confirm it doesn't affect other bits, and `uvm_reg_access_seq` verifies read/write access policies (e.g., a read-only register actually ignores writes). Front-door access (through the bus, exercising the full datapath and timing) versus back-door access (direct DPI/hierarchical poke into the RTL register, bypassing timing — useful for fast initialization or isolating register-access bugs from bus-protocol bugs) is a distinction every RAL user needs to understand.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@A Practical Guide to Adopting the Universal Verification Methodology (UVM)](https://www.amazon.com/s?k=A+Practical+Guide+to+Adopting+the+Universal+Verification+Methodology+UVM+Rosenberg+Meade)
-- [@course@UVM register abstraction layer RAL](https://www.udemy.com/courses/search/?q=UVM+register+abstraction+layer+RAL)
-- [@video@UVM register model RAL tutorial](https://www.youtube.com/results?search_query=UVM+register+model+RAL+tutorial)
-- [@article@UVM register layer](https://vlsi.kr/?s=UVM+register+layer)
+- [Book] A Practical Guide to Adopting the Universal Verification Methodology (UVM)(https://www.amazon.com/s?k=A+Practical+Guide+to+Adopting+the+Universal+Verification+Methodology+UVM+Rosenberg+Meade)
+- [Coursera] UVM register abstraction layer RAL(https://www.udemy.com/courses/search/?q=UVM+register+abstraction+layer+RAL)
+- [YouTube] UVM register model RAL tutorial(https://www.youtube.com/results?search_query=UVM+register+model+RAL+tutorial)

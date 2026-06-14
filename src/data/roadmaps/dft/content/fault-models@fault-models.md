@@ -6,9 +6,14 @@ As process nodes shrank, stuck-at faults stopped capturing many real silicon def
 
 In practice, a modern SoC test plan combines several models: stuck-at for basic structural coverage, transition-delay (often called "at-speed" or AC scan) for timing-sensitive defects, and sometimes cell-aware or bridging models derived from the actual standard-cell layout to catch defects specific to a library's transistor topology. Cell-aware test models faults inside the transistor-level structure of library cells rather than only at cell boundaries, improving defect coverage for a given pattern count. Choosing the right combination of fault models, and understanding their detection mechanisms, directly affects test escape rates and the defective-parts-per-million (DPPM) shipped to customers.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@digital VLSI test fault models](https://www.udemy.com/courses/search/?q=digital+VLSI+test+fault+models)
-- [@video@stuck-at fault transition fault model ATPG](https://www.youtube.com/results?search_query=stuck-at+fault+transition+fault+model+ATPG)
-- [@article@fault models DFT](https://vlsi.kr/?s=fault+models)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] digital VLSI test fault models(https://www.udemy.com/courses/search/?q=digital+VLSI+test+fault+models)
+- [YouTube] stuck-at fault transition fault model ATPG(https://www.youtube.com/results?search_query=stuck-at+fault+transition+fault+model+ATPG)

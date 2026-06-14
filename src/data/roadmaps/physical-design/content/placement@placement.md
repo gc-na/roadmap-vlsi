@@ -6,9 +6,14 @@ Modern placement is timing-driven and congestion-aware: the tool runs incrementa
 
 Placement quality has an outsized effect on everything downstream: a placement with poor timing correlation leads to difficult CTS and routing closure, excessive local congestion forces the router into longer detours that add parasitic capacitance and degrade timing further, and uneven cell density can create hold-time issues or hotspots. Engineers typically evaluate placement using metrics like total wirelength, congestion maps (overflow per routing grid cell), timing QoR (worst negative slack, total negative slack), and cell density histograms, iterating on floorplan, pin assignment, or placement constraints (such as keepout regions, fences, or guides) before committing to clock tree synthesis and routing.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Physical Design Essentials: An ASIC Design Implementation Perspective](https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
-- [@course@ASIC placement and routing](https://www.udemy.com/courses/search/?q=ASIC+placement+and+routing)
-- [@video@standard cell placement algorithm VLSI](https://www.youtube.com/results?search_query=standard+cell+placement+algorithm+VLSI)
-- [@article@placement physical design](https://vlsi.kr/?s=placement)
+- [Book] Physical Design Essentials: An ASIC Design Implementation Perspective(https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
+- [Coursera] ASIC placement and routing(https://www.udemy.com/courses/search/?q=ASIC+placement+and+routing)
+- [YouTube] standard cell placement algorithm VLSI(https://www.youtube.com/results?search_query=standard+cell+placement+algorithm+VLSI)

@@ -6,9 +6,14 @@ The core insertion step is scan synthesis, where the synthesis tool (e.g., DFT C
 
 Downstream, the flow continues through physical design with DFT-aware placement and routing (scan chain reordering for routability, X-propagation checks), followed by post-layout timing-aware ATPG re-targeting to account for actual delays in at-speed patterns. Pattern formats are translated to ATE-specific formats (e.g., STIL, WGL) for production test program generation. Throughout, fault coverage, pattern count, test time, and area overhead are tracked against sign-off targets, with iterations between DFT, synthesis, and physical design teams whenever DRC violations or coverage gaps are found.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@DFT flow scan ATPG SoC](https://www.udemy.com/courses/search/?q=DFT+flow+scan+ATPG+SoC)
-- [@video@DFT flow scan insertion ATPG tutorial](https://www.youtube.com/results?search_query=DFT+flow+scan+insertion+ATPG+tutorial)
-- [@article@DFT flow](https://vlsi.kr/?s=DFT+flow)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] DFT flow scan ATPG SoC(https://www.udemy.com/courses/search/?q=DFT+flow+scan+ATPG+SoC)
+- [YouTube] DFT flow scan insertion ATPG tutorial(https://www.youtube.com/results?search_query=DFT+flow+scan+insertion+ATPG+tutorial)

@@ -8,9 +8,14 @@ State encoding is a meaningful design decision. Binary encoding minimizes the nu
 
 FSM design also intersects heavily with verification: every state and transition should ideally be reachable and exercised, dead states or unreachable states often indicate a coding bug, and tools flag unreachable states or incomplete case statements (missing `default`) as lint violations. For safety- or reset-critical FSMs, defining a well-specified reset state and ensuring the FSM always returns to a known state after reset (or after an error condition) is essential, connecting directly to reset strategy and formal verification topics.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Digital Design and Computer Architecture by Harris and Harris](https://www.amazon.com/s?k=Digital+Design+and+Computer+Architecture+Harris+Harris)
-- [@course@finite state machine verilog design](https://www.udemy.com/courses/search/?q=finite+state+machine+verilog+design)
-- [@video@FSM design verilog moore mealy](https://www.youtube.com/results?search_query=FSM+design+verilog+moore+mealy)
-- [@article@finite state machine](https://vlsi.kr/?s=finite+state+machine)
+- [Book] Digital Design and Computer Architecture by Harris and Harris(https://www.amazon.com/s?k=Digital+Design+and+Computer+Architecture+Harris+Harris)
+- [Coursera] finite state machine verilog design(https://www.udemy.com/courses/search/?q=finite+state+machine+verilog+design)
+- [YouTube] FSM design verilog moore mealy(https://www.youtube.com/results?search_query=FSM+design+verilog+moore+mealy)

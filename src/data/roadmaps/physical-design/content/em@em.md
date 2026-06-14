@@ -6,9 +6,14 @@ EM limits are specified per metal layer and via, typically as a maximum allowed 
 
 Fixing EM violations generally means increasing the effective cross-sectional area available to carry the current: widening the violating wire, adding parallel via arrays instead of single vias (since each via has a fixed current limit), or routing high-current nets on thicker upper-layer metal where EM limits per unit width are higher. For power grid EM, this often means adding more straps or wider straps in the same locations that would also help IR drop, since both are driven by current density and grid resistance — making power grid sizing decisions during floorplanning a shared lever for both IR drop and EM signoff. EM signoff is typically performed with the same power/timing-aware current estimation infrastructure used for dynamic IR drop analysis, and like IR drop, EM violations found late in the flow are costly to fix because they often require routing changes in already-completed regions.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Power Integrity Analysis and Management for Integrated Circuits](https://www.amazon.com/s?k=Power+Integrity+Analysis+and+Management+for+Integrated+Circuits)
-- [@course@electromigration reliability semiconductor](https://www.udemy.com/courses/search/?q=electromigration+reliability+semiconductor)
-- [@video@electromigration EM signoff chip design](https://www.youtube.com/results?search_query=electromigration+EM+signoff+chip+design)
-- [@article@electromigration EM](https://vlsi.kr/?s=electromigration)
+- [Book] Power Integrity Analysis and Management for Integrated Circuits(https://www.amazon.com/s?k=Power+Integrity+Analysis+and+Management+for+Integrated+Circuits)
+- [Coursera] electromigration reliability semiconductor(https://www.udemy.com/courses/search/?q=electromigration+reliability+semiconductor)
+- [YouTube] electromigration EM signoff chip design(https://www.youtube.com/results?search_query=electromigration+EM+signoff+chip+design)

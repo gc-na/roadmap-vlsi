@@ -6,9 +6,14 @@ PrimeTime supports the full range of STA capabilities needed for signoff: MMMC a
 
 PrimeTime is also widely used for ECO generation — when violations are found, PrimeTime can suggest or apply ECO fixes (cell resizing, buffer insertion) and re-time incrementally without a full re-run, which is critical for fast convergence late in the design cycle. Its variant, PrimeTime ECO, integrates with place-and-route tools to push fixes back into the physical design. Because PrimeTime is considered the "golden" signoff tool at most foundries and design houses, results from physical design tools' built-in timing engines (which use faster but less accurate estimation models) are always correlated against PrimeTime before tapeout, and discrepancies between the two are investigated as a standard part of timing closure methodology.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Static Timing Analysis for Nanometer Designs](https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
-- [@course@Synopsys PrimeTime STA](https://www.udemy.com/courses/search/?q=Synopsys+PrimeTime+STA)
-- [@video@PrimeTime tutorial timing signoff](https://www.youtube.com/results?search_query=PrimeTime+tutorial+timing+signoff+Synopsys)
-- [@article@PrimeTime](https://vlsi.kr/?s=PrimeTime)
+- [Book] Static Timing Analysis for Nanometer Designs(https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
+- [Coursera] Synopsys PrimeTime STA(https://www.udemy.com/courses/search/?q=Synopsys+PrimeTime+STA)
+- [YouTube] PrimeTime tutorial timing signoff(https://www.youtube.com/results?search_query=PrimeTime+tutorial+timing+signoff+Synopsys)

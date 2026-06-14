@@ -6,9 +6,14 @@ Routing must satisfy multiple objectives simultaneously: timing (minimizing dela
 
 After detailed routing, the design undergoes routing-based extraction (RC extraction) to get accurate parasitics for signoff STA, and any remaining DRC violations or timing issues are fixed through post-route ECO — small, localized changes like cell resizing, buffer insertion, or net re-routing that avoid disturbing the bulk of the completed layout. Routing quality directly determines final timing closure, since the actual wire RC (not the estimated RC used during placement) is what signoff timing analysis uses, making routing one of the most consequential stages for whether a design meets its performance targets.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Physical Design Essentials: An ASIC Design Implementation Perspective](https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
-- [@course@ASIC routing detailed routing VLSI](https://www.udemy.com/courses/search/?q=ASIC+routing+detailed+routing+VLSI)
-- [@video@global and detailed routing VLSI](https://www.youtube.com/results?search_query=global+and+detailed+routing+VLSI)
-- [@article@routing physical design](https://vlsi.kr/?s=routing)
+- [Book] Physical Design Essentials: An ASIC Design Implementation Perspective(https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
+- [Coursera] ASIC routing detailed routing VLSI(https://www.udemy.com/courses/search/?q=ASIC+routing+detailed+routing+VLSI)
+- [YouTube] global and detailed routing VLSI(https://www.youtube.com/results?search_query=global+and+detailed+routing+VLSI)

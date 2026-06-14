@@ -8,9 +8,14 @@ Power gating (shutting off the supply voltage to entire blocks that are idle) is
 
 Operand isolation (preventing unused datapath logic, such as one input of a multiplexer-selected ALU operation, from toggling and burning power when its result won't be used) and multi-bit/multi-Vt cell usage are additional considerations. From a coding perspective, avoiding unnecessary toggling — for instance, not incrementing a counter that feeds unused logic, or using `casez`/don't-cares thoughtfully — and architecting clean enable hierarchies are the RTL designer's primary levers for low-power design.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Low Power Methodology Manual by Keating, Flynn, Aitken, Gibbons, Shi](https://www.amazon.com/s?k=Low+Power+Methodology+Manual+Keating+Flynn)
-- [@course@low power vlsi design](https://www.udemy.com/courses/search/?q=low+power+vlsi+design)
-- [@video@clock gating power gating rtl design](https://www.youtube.com/results?search_query=clock+gating+power+gating+rtl+design)
-- [@article@low power design](https://vlsi.kr/?s=low+power+design)
+- [Book] Low Power Methodology Manual by Keating, Flynn, Aitken, Gibbons, Shi(https://www.amazon.com/s?k=Low+Power+Methodology+Manual+Keating+Flynn)
+- [Coursera] low power vlsi design(https://www.udemy.com/courses/search/?q=low+power+vlsi+design)
+- [YouTube] clock gating power gating rtl design(https://www.youtube.com/results?search_query=clock+gating+power+gating+rtl+design)

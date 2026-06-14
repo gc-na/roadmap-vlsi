@@ -6,9 +6,14 @@ Practically, this means understanding Tcl fundamentals — variables, lists, loo
 
 Beyond writing SDC files, Tcl scripting is used extensively to automate repetitive signoff tasks: looping over all clock domains to generate per-domain timing reports, parsing `report_timing` output to extract slack values into a summary table, writing custom procs that flag suspicious constraints (e.g., clocks with no defined generated-clock relationship, or false paths that overlap with real critical paths), and building regression scripts that compare slack across multiple STA runs (e.g., before/after an ECO) to confirm a fix didn't introduce new violations elsewhere. Strong Tcl skills dramatically reduce the manual effort required during timing closure, where the same analysis often needs to be repeated across dozens of scenarios and design revisions, and most senior STA engineers maintain personal libraries of Tcl utility procs built up over years of signoff work.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Tcl and the Tk Toolkit](https://www.amazon.com/s?k=Tcl+and+the+Tk+Toolkit)
-- [@course@Tcl scripting for EDA VLSI](https://www.udemy.com/courses/search/?q=Tcl+scripting+for+EDA+VLSI)
-- [@video@Tcl scripting tutorial for STA PrimeTime](https://www.youtube.com/results?search_query=Tcl+scripting+tutorial+for+STA+PrimeTime)
-- [@article@Tcl scripting STA](https://vlsi.kr/?s=Tcl+scripting)
+- [Book] Tcl and the Tk Toolkit(https://www.amazon.com/s?k=Tcl+and+the+Tk+Toolkit)
+- [Coursera] Tcl scripting for EDA VLSI(https://www.udemy.com/courses/search/?q=Tcl+scripting+for+EDA+VLSI)
+- [YouTube] Tcl scripting tutorial for STA PrimeTime(https://www.youtube.com/results?search_query=Tcl+scripting+tutorial+for+STA+PrimeTime)

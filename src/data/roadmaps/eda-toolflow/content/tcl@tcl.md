@@ -6,9 +6,14 @@ In flow engineering, Tcl is used for far more than issuing tool commands: engine
 
 Effective Tcl for EDA also involves namespace management to avoid variable collisions between vendor-provided procedures and custom flow code, careful handling of `array` and `dict` for structured data (since Tcl lacks native objects), and integration points where Tcl scripts call out to external Python or shell utilities for tasks Tcl handles poorly, like complex data processing or report generation. Debugging Tcl inside a vendor tool — using `catch`, `puts` tracing, and understanding the tool's own Tcl interpreter quirks (some commands behave differently inside `-exec` vs. interactive mode) — is a daily skill for anyone maintaining synthesis or place-and-route scripts.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Practical Programming in Tcl and Tk](https://www.amazon.com/s?k=Practical+Programming+in+Tcl+and+Tk+Brent+Welch)
-- [@course@Tcl scripting](https://www.udemy.com/courses/search/?q=Tcl+scripting+programming)
-- [@video@Tcl scripting for EDA tools](https://www.youtube.com/results?search_query=Tcl+scripting+for+EDA+tools+synthesis)
-- [@article@Tcl scripting](https://vlsi.kr/?s=Tcl)
+- [Book] Practical Programming in Tcl and Tk(https://www.amazon.com/s?k=Practical+Programming+in+Tcl+and+Tk+Brent+Welch)
+- [Coursera] Tcl scripting(https://www.udemy.com/courses/search/?q=Tcl+scripting+programming)
+- [YouTube] Tcl scripting for EDA tools(https://www.youtube.com/results?search_query=Tcl+scripting+for+EDA+tools+synthesis)

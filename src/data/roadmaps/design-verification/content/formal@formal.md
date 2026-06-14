@@ -6,9 +6,14 @@ Formal excels at proving the absence of certain bug classes that simulation stru
 
 Equivalence checking (formal equivalence verification, FEV) proves that two representations of a design — RTL versus a gate-level netlist after synthesis, or RTL before and after an ECO (engineering change order) — are functionally equivalent without running any simulation, by formally comparing their logic cones. This is standard practice after synthesis and after any late RTL patches to gate-level netlists. Connectivity checking (verifying every pin connects to its intended net across the full SoC, often using formal-based tools) is another widely used application. A growing area is "formal apps" — pre-packaged formal analyses for specific bug classes (X-propagation, clock-domain crossing, dead code, register reset checks) that require minimal setup and are run as a sign-off gate alongside simulation regressions.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Formal Verification: An Essential Toolkit for Modern VLSI Design](https://www.amazon.com/s?k=Formal+Verification+An+Essential+Toolkit+for+Modern+VLSI+Design+Erik+Seligman)
-- [@course@formal verification model checking](https://www.udemy.com/courses/search/?q=formal+verification+model+checking)
-- [@video@formal verification JasperGold tutorial](https://www.youtube.com/results?search_query=formal+verification+JasperGold+tutorial)
-- [@article@formal verification](https://vlsi.kr/?s=formal+verification)
+- [Book] Formal Verification: An Essential Toolkit for Modern VLSI Design(https://www.amazon.com/s?k=Formal+Verification+An+Essential+Toolkit+for+Modern+VLSI+Design+Erik+Seligman)
+- [Coursera] formal verification model checking(https://www.udemy.com/courses/search/?q=formal+verification+model+checking)
+- [YouTube] formal verification JasperGold tutorial(https://www.youtube.com/results?search_query=formal+verification+JasperGold+tutorial)

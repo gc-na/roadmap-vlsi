@@ -6,9 +6,14 @@ A key SoC test challenge is managing the sheer scale and heterogeneity of modern
 
 Production test programs for SoCs typically run through multiple insertions: wafer sort (probe test before packaging, focused on identifying gross defects early and cheaply), final test (full pattern set including at-speed, BIST, and analog tests after packaging), and burn-in or system-level test (SLT) for high-reliability applications, where the device runs representative workloads to catch defects that structural patterns miss. Power-aware test is increasingly important: scan shift with many flops toggling simultaneously can draw far more current than functional operation, requiring techniques like low-power scan cells, shift clock gating, and pattern reordering to stay within IR-drop and thermal budgets. Coordinating fault coverage, test time, power, and pattern count across this entire hierarchy is the core job of SoC-level DFT engineers.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@SoC test integration DFT architecture](https://www.udemy.com/courses/search/?q=SoC+test+integration+DFT+architecture)
-- [@video@SoC test architecture TAM pattern retargeting](https://www.youtube.com/results?search_query=SoC+test+architecture+TAM+pattern+retargeting)
-- [@article@SoC test integration](https://vlsi.kr/?s=SoC+test)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] SoC test integration DFT architecture(https://www.udemy.com/courses/search/?q=SoC+test+integration+DFT+architecture)
+- [YouTube] SoC test architecture TAM pattern retargeting(https://www.youtube.com/results?search_query=SoC+test+architecture+TAM+pattern+retargeting)

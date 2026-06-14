@@ -6,9 +6,14 @@ Common ESD device structures include diodes (forward and reverse-biased clamps t
 
 A central trade-off in ESD design is the interaction with analog performance: ESD devices add parasitic capacitance to I/O pads (impacting bandwidth in RF and high-speed analog I/O) and leakage current (impacting precision references and high-impedance nodes). The "ESD design window" concept captures the requirement that the ESD device's trigger voltage must be below the breakdown voltage of the protected gate oxide, but above the maximum operating voltage — and as process nodes scale down, this window shrinks, making ESD co-design with the core analog circuit (rather than as an afterthought) increasingly necessary. TLP (transmission line pulse) testing is the standard characterization method for ESD device IV curves and failure thresholds.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@ESD: Circuits and Devices](https://www.amazon.com/s?k=ESD+Circuits+and+Devices+Voldman)
-- [@course@ESD protection circuit design IC](https://www.udemy.com/courses/search/?q=ESD+protection+circuit+design+IC)
-- [@video@ESD protection design for ICs](https://www.youtube.com/results?search_query=ESD+protection+design+for+ICs)
-- [@article@ESD protection design](https://vlsi.kr/?s=ESD+protection+design)
+- [Book] ESD: Circuits and Devices(https://www.amazon.com/s?k=ESD+Circuits+and+Devices+Voldman)
+- [Coursera] ESD protection circuit design IC(https://www.udemy.com/courses/search/?q=ESD+protection+circuit+design+IC)
+- [YouTube] ESD protection design for ICs(https://www.youtube.com/results?search_query=ESD+protection+design+for+ICs)

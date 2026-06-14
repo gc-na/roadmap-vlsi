@@ -6,9 +6,14 @@ The simple mirror's accuracy is limited by finite output resistance (channel-len
 
 Beyond simple scaling, mirrors implement key functions: the Wilson mirror improves output resistance with fewer devices, regulated cascode (gain-boosted) mirrors push output resistance even higher for gain-boosted amplifier stages, and translinear circuits exploit the exponential I-V relationship of BJTs (or subthreshold MOSFETs) for current-domain arithmetic in references and PTAT/CTAT generation. Mirrors also propagate bias currents across the chip through current distribution networks, where IR drop and matching across long routing distances must be carefully managed.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Analysis and Design of Analog Integrated Circuits](https://www.amazon.com/s?k=Analysis+and+Design+of+Analog+Integrated+Circuits+Gray+Hurst+Lewis+Meyer+current+mirrors)
-- [@course@current mirror design analog CMOS](https://www.udemy.com/courses/search/?q=current+mirror+design+analog+CMOS)
-- [@video@cascode current mirror design analysis](https://www.youtube.com/results?search_query=cascode+current+mirror+design+analysis)
-- [@article@current mirror design](https://vlsi.kr/?s=current+mirror+design)
+- [Book] Analysis and Design of Analog Integrated Circuits(https://www.amazon.com/s?k=Analysis+and+Design+of+Analog+Integrated+Circuits+Gray+Hurst+Lewis+Meyer+current+mirrors)
+- [Coursera] current mirror design analog CMOS(https://www.udemy.com/courses/search/?q=current+mirror+design+analog+CMOS)
+- [YouTube] cascode current mirror design analysis(https://www.youtube.com/results?search_query=cascode+current+mirror+design+analysis)

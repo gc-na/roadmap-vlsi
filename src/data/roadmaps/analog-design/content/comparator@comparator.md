@@ -6,9 +6,14 @@ Key specifications include offset voltage (driven by input pair and latch device
 
 Preamplifier stages are often added before the latch to reduce kickback and improve sensitivity at the cost of bandwidth and added noise/offset. Offset cancellation techniques — such as auto-zeroing (storing and subtracting offset using switched capacitors) or chopping — are used in precision comparators. In the context of data converters, comparator design directly trades off against ADC resolution (LSB size vs. comparator offset and noise), conversion speed, and power, making comparator architecture selection (dynamic latch vs. preamp+latch vs. continuous-time) a first-order decision in SAR, flash, and pipeline ADC design.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@CMOS Mixed-Signal Circuit Design](https://www.amazon.com/s?k=CMOS+Mixed-Signal+Circuit+Design+Baker+comparator)
-- [@course@comparator design StrongARM latch ADC](https://www.udemy.com/courses/search/?q=comparator+design+StrongARM+latch+ADC)
-- [@video@StrongARM latch comparator design](https://www.youtube.com/results?search_query=StrongARM+latch+comparator+design)
-- [@article@comparator design](https://vlsi.kr/?s=comparator+design)
+- [Book] CMOS Mixed-Signal Circuit Design(https://www.amazon.com/s?k=CMOS+Mixed-Signal+Circuit+Design+Baker+comparator)
+- [Coursera] comparator design StrongARM latch ADC(https://www.udemy.com/courses/search/?q=comparator+design+StrongARM+latch+ADC)
+- [YouTube] StrongARM latch comparator design(https://www.youtube.com/results?search_query=StrongARM+latch+comparator+design)

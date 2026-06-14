@@ -6,9 +6,14 @@ RC extraction tools (such as Calibre xRC, StarRC) read the layout (GDS) along wi
 
 For analog designers, the most critical parasitics to scrutinize are those on high-impedance, high-gain, or matching-critical nodes: gate nodes of differential pairs (extra capacitance affects bandwidth and noise), drain nodes in cascode stages (affects pole locations and stability), and the routing between matched devices (asymmetric parasitic capacitance/resistance breaks matching that was carefully achieved in layout). Reviewing the extracted netlist for unexpectedly large parasitic values on these nodes — and tracing them back to specific layout geometry — is a standard step before committing to post-layout simulation, since extraction runs can be time-consuming and iterating on layout late in the flow is costly.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@CMOS Mixed-Signal Circuit Design](https://www.amazon.com/s?k=CMOS+Mixed-Signal+Circuit+Design+Baker+parasitic+extraction)
-- [@course@parasitic extraction analog IC layout](https://www.udemy.com/courses/search/?q=parasitic+extraction+analog+IC+layout)
-- [@video@RC parasitic extraction analog layout](https://www.youtube.com/results?search_query=RC+parasitic+extraction+analog+layout)
-- [@article@parasitic extraction analog](https://vlsi.kr/?s=parasitic+extraction+analog)
+- [Book] CMOS Mixed-Signal Circuit Design(https://www.amazon.com/s?k=CMOS+Mixed-Signal+Circuit+Design+Baker+parasitic+extraction)
+- [Coursera] parasitic extraction analog IC layout(https://www.udemy.com/courses/search/?q=parasitic+extraction+analog+IC+layout)
+- [YouTube] RC parasitic extraction analog layout(https://www.youtube.com/results?search_query=RC+parasitic+extraction+analog+layout)

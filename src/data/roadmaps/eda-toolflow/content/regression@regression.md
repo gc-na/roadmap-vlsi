@@ -6,9 +6,14 @@ Building a regression infrastructure involves selecting test cases that exercise
 
 Operationally, regressions run on triggers: nightly for ongoing methodology development, and on-demand before any flow or tool change is promoted to the release branch used by production teams. A key engineering challenge is keeping regression turnaround time manageable as the suite grows — using incremental/smoke subsets for quick checks and full suites for release gating, caching unchanged intermediate results, and triaging failures efficiently (distinguishing a real regression from environment flakiness, license contention, or an outdated golden reference that itself needs updating). Regression infrastructure is usually built in Python with a database tracking historical results, integrated with the job scheduler (LSF/grid) and often with CI-style triggers tied to the revision control system.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Continuous Delivery](https://www.amazon.com/s?k=Continuous+Delivery+software+regression+testing)
-- [@course@regression testing automation](https://www.udemy.com/courses/search/?q=regression+testing+automation+CI)
-- [@video@regression testing automation pipeline](https://www.youtube.com/results?search_query=regression+testing+automation+EDA+CAD+flow)
-- [@article@regression testing flow](https://vlsi.kr/?s=regression+testing)
+- [Book] Continuous Delivery(https://www.amazon.com/s?k=Continuous+Delivery+software+regression+testing)
+- [Coursera] regression testing automation(https://www.udemy.com/courses/search/?q=regression+testing+automation+CI)
+- [YouTube] regression testing automation pipeline(https://www.youtube.com/results?search_query=regression+testing+automation+EDA+CAD+flow)

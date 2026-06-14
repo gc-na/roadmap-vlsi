@@ -6,9 +6,14 @@ A core responsibility of methodology engineering is maintaining the "golden" ref
 
 Methodology also covers documentation and training: writing internal guides for how to run the flow, debug common failures, and interpret QoR reports, plus onboarding new engineers onto the toolchain. Methodology engineers continuously gather feedback from block owners, triage recurring issues, and decide whether a fix belongs in the shared flow or is block-specific. They work closely with CAD (tool installation and licensing), flow architecture (script structure), and release teams (versioning and rollout) to ensure changes to methodology are tested in regression before being adopted broadly, balancing innovation against the stability that large design teams depend on.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@VLSI Physical Design: From Graph Partitioning to Timing Closure](https://www.amazon.com/s?k=VLSI+Physical+Design+methodology+timing+closure)
-- [@course@VLSI design methodology](https://www.udemy.com/courses/search/?q=VLSI+design+methodology+ASIC+flow)
-- [@video@chip design methodology RTL to GDSII](https://www.youtube.com/results?search_query=chip+design+methodology+RTL+to+GDSII)
-- [@article@design methodology](https://vlsi.kr/?s=design+methodology)
+- [Book] VLSI Physical Design: From Graph Partitioning to Timing Closure(https://www.amazon.com/s?k=VLSI+Physical+Design+methodology+timing+closure)
+- [Coursera] VLSI design methodology(https://www.udemy.com/courses/search/?q=VLSI+design+methodology+ASIC+flow)
+- [YouTube] chip design methodology RTL to GDSII(https://www.youtube.com/results?search_query=chip+design+methodology+RTL+to+GDSII)

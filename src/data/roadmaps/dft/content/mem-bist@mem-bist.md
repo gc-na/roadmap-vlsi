@@ -6,9 +6,14 @@ Standard memory test algorithms include March tests (March C-, March B, March SS
 
 For memories with built-in redundancy (spare rows/columns common in large SRAM arrays and embedded DRAM), MBIST is paired with built-in redundancy analysis (BIRA) and built-in self-repair (BISR), which identify failing cells during test and program fuses or anti-fuses (or non-volatile latches) to remap addresses to spare elements, improving yield significantly for large memory-dominated SoCs. MBIST is typically integrated into the overall test access mechanism so it can be triggered via JTAG/IEEE 1500 wrappers, run during wafer sort and final test, and also invoked at power-on in mission mode for in-field memory health checks in safety-critical (automotive, ISO 26262) applications.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@memory BIST March algorithm SRAM test](https://www.udemy.com/courses/search/?q=memory+BIST+March+algorithm+SRAM+test)
-- [@video@memory BIST March test algorithm tutorial](https://www.youtube.com/results?search_query=memory+BIST+March+test+algorithm+tutorial)
-- [@article@memory BIST](https://vlsi.kr/?s=memory+BIST)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] memory BIST March algorithm SRAM test(https://www.udemy.com/courses/search/?q=memory+BIST+March+algorithm+SRAM+test)
+- [YouTube] memory BIST March test algorithm tutorial(https://www.youtube.com/results?search_query=memory+BIST+March+test+algorithm+tutorial)

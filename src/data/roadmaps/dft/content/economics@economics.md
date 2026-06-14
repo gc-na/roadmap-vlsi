@@ -6,9 +6,14 @@ Tester time is a dominant cost driver because automated test equipment (ATE) tim
 
 Area overhead from DFT logic (scan muxes, test points, BIST controllers, JTAG TAP) typically ranges from a few percent to over ten percent depending on design maturity and testability requirements, and must be budgeted early in the floorplan. Yield ramp economics also matter: early in a process node's life, diagnostic resolution (the ability to localize failures precisely) is worth extra silicon because it accelerates yield learning, while in mature production the focus shifts to minimizing recurring test cost per unit. Engineers must weigh these factors against product requirements such as automotive (ISO 26262) reliability targets, which often mandate higher coverage and additional structures like logic BIST regardless of incremental cost.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@semiconductor test cost yield](https://www.udemy.com/courses/search/?q=semiconductor+test+cost+yield)
-- [@video@cost of test semiconductor ATE](https://www.youtube.com/results?search_query=cost+of+test+semiconductor+ATE)
-- [@article@DFT economics test cost](https://vlsi.kr/?s=test+cost+economics)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] semiconductor test cost yield(https://www.udemy.com/courses/search/?q=semiconductor+test+cost+yield)
+- [YouTube] cost of test semiconductor ATE(https://www.youtube.com/results?search_query=cost+of+test+semiconductor+ATE)

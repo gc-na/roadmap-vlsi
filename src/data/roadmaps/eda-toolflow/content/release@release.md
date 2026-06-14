@@ -6,9 +6,14 @@ A typical release process involves a candidate build going through the full regr
 
 Release management also handles the practical realities of a large organization: supporting multiple active release versions simultaneously (since not every block can migrate the moment a new release ships, especially mid-tapeout), backporting critical bug fixes to older releases when needed, and maintaining clear release notes and changelogs so engineers can understand what changed between versions when debugging an unexpected difference in results. Coordinating releases of the flow with releases of PDKs, IP, and EDA tool versions — since these are often interdependent — and managing the rollback process if a release turns out to have a critical issue after wide adoption, are core release-management responsibilities that require both technical rigor and clear communication across teams.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@The Phoenix Project](https://www.amazon.com/s?k=The+Phoenix+Project+release+management+devops)
-- [@course@release management software](https://www.udemy.com/courses/search/?q=release+management+versioning+software)
-- [@video@release management versioning engineering](https://www.youtube.com/results?search_query=release+management+versioning+engineering+process)
-- [@article@release management flow](https://vlsi.kr/?s=release+management)
+- [Book] The Phoenix Project(https://www.amazon.com/s?k=The+Phoenix+Project+release+management+devops)
+- [Coursera] release management software(https://www.udemy.com/courses/search/?q=release+management+versioning+software)
+- [YouTube] release management versioning engineering(https://www.youtube.com/results?search_query=release+management+versioning+engineering+process)

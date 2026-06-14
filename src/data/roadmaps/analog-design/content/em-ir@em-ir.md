@@ -6,9 +6,14 @@ IR drop refers to the voltage drop across resistive power/ground routing due to 
 
 For analog blocks, EM/IR analysis requires accurate current estimates per branch (often derived from simulation, not just average power), careful sizing of power/ground routing and via arrays especially near high-current devices (output stages, large current mirrors, ESD clamps), and attention to how power routing is shared or isolated between noisy digital and sensitive analog domains — since shared return paths can couple switching IR-drop transients directly into analog ground references. Tools like Voltus, RedHawk, or built-in extraction-based checkers analyze the extracted power network against current estimates to flag violations before tapeout.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@CMOS Mixed-Signal Circuit Design](https://www.amazon.com/s?k=CMOS+Mixed-Signal+Circuit+Design+Baker+electromigration+IR+drop)
-- [@course@electromigration IR drop analysis IC design](https://www.udemy.com/courses/search/?q=electromigration+IR+drop+analysis+IC+design)
-- [@video@electromigration IR drop analysis analog layout](https://www.youtube.com/results?search_query=electromigration+IR+drop+analysis+analog+layout)
-- [@article@electromigration IR drop analog](https://vlsi.kr/?s=electromigration+IR+drop+analog)
+- [Book] CMOS Mixed-Signal Circuit Design(https://www.amazon.com/s?k=CMOS+Mixed-Signal+Circuit+Design+Baker+electromigration+IR+drop)
+- [Coursera] electromigration IR drop analysis IC design(https://www.udemy.com/courses/search/?q=electromigration+IR+drop+analysis+IC+design)
+- [YouTube] electromigration IR drop analysis analog layout(https://www.youtube.com/results?search_query=electromigration+IR+drop+analysis+analog+layout)

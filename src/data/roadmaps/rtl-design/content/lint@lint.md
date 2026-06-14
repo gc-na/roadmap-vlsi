@@ -8,9 +8,14 @@ Lint also enforces coding guidelines that improve consistency across a large cod
 
 Because lint runs early and fast (no testbench required), it is typically the first quality gate in an RTL development flow — catching a large fraction of bugs before they require expensive simulation debug cycles. A clean lint report is also frequently a sign-off requirement before RTL is handed off to verification or synthesis teams. Understanding lint rule categories — and why each rule exists in terms of hardware semantics — helps an RTL designer write code that is correct "the first time" rather than relying on lint as an afterthought to be waived away.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Reuse Methodology Manual for System-on-a-Chip Designs by Keating and Bricaud](https://www.amazon.com/s?k=Reuse+Methodology+Manual+System+on+Chip+Keating+Bricaud)
-- [@course@rtl design lint coding guidelines](https://www.udemy.com/courses/search/?q=rtl+design+lint+coding+guidelines)
-- [@video@rtl lint checks verilog spyglass](https://www.youtube.com/results?search_query=rtl+lint+checks+verilog+spyglass)
-- [@article@rtl lint](https://vlsi.kr/?s=rtl+lint)
+- [Book] Reuse Methodology Manual for System-on-a-Chip Designs by Keating and Bricaud(https://www.amazon.com/s?k=Reuse+Methodology+Manual+System+on+Chip+Keating+Bricaud)
+- [Coursera] rtl design lint coding guidelines(https://www.udemy.com/courses/search/?q=rtl+design+lint+coding+guidelines)
+- [YouTube] rtl lint checks verilog spyglass(https://www.youtube.com/results?search_query=rtl+lint+checks+verilog+spyglass)

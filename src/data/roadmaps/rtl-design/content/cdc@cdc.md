@@ -8,9 +8,14 @@ For multi-bit data crossing clock domains, common patterns include asynchronous 
 
 From an RTL perspective, writing CDC-safe code means recognizing crossing points in the design, applying the correct synchronizer or FIFO structure, and avoiding combinational logic between the synchronizer flops and the first capturing register (which would reintroduce metastability risk). CDC issues are notoriously hard to catch in simulation because metastability is a physical, probabilistic phenomenon — this is why dedicated static CDC verification tools (e.g., Synopsys SpyGlass CDC, Cadence Conformal CDC) are standard in any multi-clock design flow, checking for missing or incorrectly structured synchronizers across the entire design.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Clock Domain Crossing (CDC) Design and Verification Techniques Using SystemVerilog by Clifford Cummings](https://www.amazon.com/s?k=Clock+Domain+Crossing+CDC+Design+Verification+SystemVerilog+Cummings)
-- [@course@clock domain crossing cdc design](https://www.udemy.com/courses/search/?q=clock+domain+crossing+cdc+design)
-- [@video@clock domain crossing metastability synchronizer](https://www.youtube.com/results?search_query=clock+domain+crossing+metastability+synchronizer)
-- [@article@clock domain crossing](https://vlsi.kr/?s=clock+domain+crossing)
+- [Book] Clock Domain Crossing (CDC) Design and Verification Techniques Using SystemVerilog by Clifford Cummings(https://www.amazon.com/s?k=Clock+Domain+Crossing+CDC+Design+Verification+SystemVerilog+Cummings)
+- [Coursera] clock domain crossing cdc design(https://www.udemy.com/courses/search/?q=clock+domain+crossing+cdc+design)
+- [YouTube] clock domain crossing metastability synchronizer(https://www.youtube.com/results?search_query=clock+domain+crossing+metastability+synchronizer)

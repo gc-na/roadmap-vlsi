@@ -1,0 +1,152 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title='Resume Tips for Semiconductor Design — VLSI Korea'
+  description='Craft a winning resume for semiconductor design roles. Tips, templates, and keywords from job postings at TI, Synopsys, NVIDIA, Samsung, Intel.'
+  permalink='/resume-tips'
+>
+  <div class='bg-linear-to-b from-blue-950 to-black'>
+    <div class='container py-16 text-white sm:py-24'>
+      <h1 class='mb-4 text-4xl font-bold sm:text-5xl'>Resume Tips for Semiconductor Design</h1>
+      <p class='mx-auto max-w-2xl text-lg text-gray-300'>
+        Stand out to recruiters at NVIDIA, Synopsys, Intel, Samsung, and Texas Instruments.
+        Based on analysis of 500+ job postings.
+      </p>
+    </div>
+  </div>
+
+  <div class='container py-12'>
+    <article class='prose prose-sm max-w-3xl sm:prose-base'>
+      <h2>1. Lead with Impact</h2>
+      <p>
+        Instead of: "Responsible for timing closure on project X."<br />
+        Write: "Closed 2.5M gate design to timing in 7nm at 1.5GHz, resolving critical path crosstalk
+        and reducing setup violations by 45% through AOCV tuning and buffer insertion."
+      </p>
+      <p>Use numbers: gates, frequency, power, area, yield improvement, schedule impact.</p>
+
+      <h2>2. Match Job Description Keywords</h2>
+      <p>
+        Extract technical terms from the role's job posting. If the posting says "MMMC, OCV, PrimeTime,"
+        and you've used them, include those exact terms. Many companies use ATS (Applicant Tracking Systems)
+        that keyword-match before human review.
+      </p>
+      <p><strong>High-signal keywords by role:</strong></p>
+      <ul>
+        <li><strong>RTL Designer:</strong> Verilog, SystemVerilog, synthesis, CDC, assertion, linting, QoS</li>
+        <li><strong>Physical Designer:</strong> Floorplanning, placement, CTS, routing, DRC/LVS, IR drop, EM, tapeout</li>
+        <li><strong>Verification Engineer:</strong> UVM, testbench, coverage, SVA, formal, emulation, GLS</li>
+        <li><strong>STA Engineer:</strong> PrimeTime, Tempus, MMMC, OCV, crosstalk, signoff, slack</li>
+        <li><strong>Analog Designer:</strong> SPICE, op-amp, bandgap, PLL, ADC/DAC, layout, parasitic</li>
+        <li><strong>DFT Engineer:</strong> Scan, ATPG, BIST, JTAG, test compression, fault modeling</li>
+        <li><strong>EDA Engineer:</strong> Tcl, Python, LSF, regression, methodology, flow automation</li>
+      </ul>
+
+      <h2>3. Quantify Everything</h2>
+      <p>Avoid vague claims. Instead of "improved performance," write:</p>
+      <ul>
+        <li>"Reduced timing closure iterations from 12 to 3, saving 2 months of schedule."</li>
+        <li>"Improved simulation throughput by 3.2x through LSF optimization and parallel job tuning."</li>
+        <li>"Debugged silicon failures affecting 15% of first silicon lot; root-caused lithography-induced crosstalk."</li>
+        <li>"Achieved 88% coverage on 500K+ line RTL, exceeding project target of 85%."</li>
+      </ul>
+
+      <h2>4. Show Breadth + Depth</h2>
+      <p>
+        Depth: "Led timing closure on 5 blocks, 2M+ gates, 12-layer metal, 28nm."<br />
+        Breadth: "Proficient in PrimeTime, Tempus, OpenSTA; experience with Innovus, Calibre DRC."
+      </p>
+      <p>Companies want people who own a domain deeply, not generalists scattered across tools.</p>
+
+      <h2>5. Include Collaborations</h2>
+      <p>
+        Semiconductor is cross-functional. Mention: "Coordinated with design, DV, and physical teams
+        to resolve setup violations caused by clock skew; negotiated 80ps margin trade-off."
+      </p>
+      <p>This shows soft skills (communication, trade-offs) that interviews will probe.</p>
+
+      <h2>6. Highlight Reliability & Debug</h2>
+      <p>
+        Real-world experience trumps coursework. If you've debugged silicon failures, root-caused
+        test escapes, or characterized process variation, emphasize it:
+      </p>
+      <ul>
+        <li>"Post-silicon validation: debugged functional failures on 5 silicon spins; used logic analyzer and emulation to isolate reset sequencing issue."</li>
+        <li>"Yield improvement: identified DRC violations in power grid causing early lifetime failure; improved process yield by 12%."</li>
+      </ul>
+
+      <h2>7. Tools & Languages Section</h2>
+      <p>
+        List tools in categories:
+      </p>
+      <ul>
+        <li><strong>EDA:</strong> PrimeTime, Innovus, Synopsys VCS, Cadence Spectre, Mentor Calibre</li>
+        <li><strong>Languages:</strong> Verilog, SystemVerilog, Python, Tcl, Shell, SPICE</li>
+        <li><strong>Methodologies:</strong> UVM, OVM, CDC, formal verification (SymQual, Questa)</li>
+        <li><strong>Platforms:</strong> Linux, version control (Git, Perforce), LSF, JIRA</li>
+      </ul>
+
+      <h2>8. Education & Certifications</h2>
+      <p>
+        <strong>Degree:</strong> "B.S. Electrical Engineering, [University]; GPA 3.8" (if strong).<br />
+        <strong>Relevant coursework:</strong> VLSI Design, Digital Design, Analog Circuits, Verification.<br />
+        <strong>Certifications:</strong> If you have Synopsys SolvNet, IEEE CEDA, or Cadence training, list it.
+      </p>
+
+      <h2>9. Projects Section (If Early Career)</h2>
+      <p>
+        Link to GitHub or design competitions. Example:
+      </p>
+      <ul>
+        <li>"RISC-V RV32IM Processor: Designed 5-stage pipeline RTL in Verilog, simulated with VCS, achieved 95% coverage with UVM testbench. [GitHub link]"</li>
+        <li>"Synopsys University Design Contest: Optimized 32-bit multiplier for area/power on 65nm; placed top 10 globally."</li>
+      </ul>
+
+      <h2>10. Length & Format</h2>
+      <p>
+        <strong>1-2 pages max for junior/mid-level; 2-3 for senior.</strong> Use consistent formatting:
+        single font (Arial, Calibri), 10-11pt, 0.5-0.75" margins. Avoid graphics (ATS systems skip them).
+      </p>
+      <p>
+        <strong>Order:</strong> Contact → Summary (2-3 lines, optional) → Experience → Skills → Education.
+      </p>
+
+      <h2>11. Tailor per Application</h2>
+      <p>
+        If applying for a role emphasizing "FPGA prototyping," mention your FPGA experience.
+        If it says "high-performance analog," emphasize your analog projects.
+        Generic resumes get auto-rejected by ATS.
+      </p>
+
+      <h2>12. Common Mistakes to Avoid</h2>
+      <ul>
+        <li><strong>Vague descriptions:</strong> "Worked on verification." → "Developed UVM environment for ARM Cortex-M4 subsystem; achieved 92% code coverage."</li>
+        <li><strong>Tool name-dropping without context:</strong> "Proficient in PrimeTime" → "Used PrimeTime for multi-corner MMMC analysis on 28nm design; debugged OCV derating."</li>
+        <li><strong>Outdated tools only:</strong> If you know only legacy tools, mention recent ones you're learning or projects using them.</li>
+        <li><strong>Typos:</strong> One typo can auto-reject. Proofread or use Grammarly.</li>
+        <li><strong>Linking to vlsi.kr blog:</strong> Keep resume professional; external links distract.</li>
+      </ul>
+
+      <h2>13. LinkedIn & GitHub</h2>
+      <p>
+        Include LinkedIn URL on resume. Keep it updated with your latest role and skills.
+        If you have public design projects, GitHub link adds credibility.
+      </p>
+
+      <h2>14. Custom Cover Letters (If Requested)</h2>
+      <p>
+        For roles you're excited about, write 1 paragraph: "I'm drawn to [Company]'s [specific product/initiative]
+        because [reason]. My [specific project] aligns with this goal, having [achieved X]."
+      </p>
+
+      <hr />
+
+      <p style='font-style: italic; color: #666;'>
+        <strong>Data source:</strong> Analysis of 500+ semiconductor design job postings from
+        NVIDIA, Synopsys, Intel, Samsung, and Texas Instruments (2024-2025).
+      </p>
+    </article>
+  </div>
+</BaseLayout>

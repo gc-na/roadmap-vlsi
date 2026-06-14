@@ -8,9 +8,14 @@ Verification-friendly synthesizable RTL also means structuring code so that form
 
 Finally, gate-level simulation (GLS) — running testbenches against the post-synthesis (and post-place-and-route) netlist with SDF-annotated timing — is the verification activity most directly tied to synthesis output, and RTL coding choices around resets, initial values, and `x`-propagation determine how much debugging effort GLS requires.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Writing Testbenches using SystemVerilog by Janick Bergeron](https://www.amazon.com/s?k=Writing+Testbenches+SystemVerilog+Janick+Bergeron)
-- [@course@gate level simulation verification flow](https://www.udemy.com/courses/search/?q=gate+level+simulation+verification+flow)
-- [@video@RTL gate level simulation mismatch x propagation](https://www.youtube.com/results?search_query=RTL+gate+level+simulation+mismatch+x+propagation)
-- [@article@gate level simulation synthesis verification](https://vlsi.kr/?s=gate+level+simulation)
+- [Book] Writing Testbenches using SystemVerilog by Janick Bergeron(https://www.amazon.com/s?k=Writing+Testbenches+SystemVerilog+Janick+Bergeron)
+- [Coursera] gate level simulation verification flow(https://www.udemy.com/courses/search/?q=gate+level+simulation+verification+flow)
+- [YouTube] RTL gate level simulation mismatch x propagation(https://www.youtube.com/results?search_query=RTL+gate+level+simulation+mismatch+x+propagation)

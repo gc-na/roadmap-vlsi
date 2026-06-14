@@ -6,9 +6,14 @@ Tempus supports multi-mode multi-corner (MMMC) analysis through view definitions
 
 Tempus also offers a distributed, multi-threaded analysis engine designed to handle large MMMC scenario counts efficiently on compute farms, and supports a Tcl-based command interface similar in spirit to PrimeTime's `pt_shell`, though with Cadence-specific command names and conventions. Because design teams sometimes use Innovus for place-and-route but PrimeTime for final signoff (or vice versa with other tool combinations), correlation between Tempus and PrimeTime results — comparing slack numbers path-by-path for the same scenario — is a common methodology task to catch discrepancies in delay calculation, library interpretation, or SDC parsing between the two tools before committing to a signoff number.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Static Timing Analysis for Nanometer Designs](https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
-- [@course@Cadence Tempus Innovus timing](https://www.udemy.com/courses/search/?q=Cadence+Tempus+Innovus+timing)
-- [@video@Cadence Tempus timing signoff tutorial](https://www.youtube.com/results?search_query=Cadence+Tempus+timing+signoff+tutorial)
-- [@article@Tempus](https://vlsi.kr/?s=Tempus)
+- [Book] Static Timing Analysis for Nanometer Designs(https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
+- [Coursera] Cadence Tempus Innovus timing(https://www.udemy.com/courses/search/?q=Cadence+Tempus+Innovus+timing)
+- [YouTube] Cadence Tempus timing signoff tutorial(https://www.youtube.com/results?search_query=Cadence+Tempus+timing+signoff+tutorial)

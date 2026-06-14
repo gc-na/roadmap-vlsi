@@ -6,9 +6,14 @@ A key design decision is directory layout and quota management: organizing data 
 
 Flow engineers care about storage because I/O performance directly affects tool runtime — a place-and-route tool that's constantly waiting on NFS for library reads or writing large database checkpoints can be dramatically slower on congested storage — and because flow scripts must be written to clean up intermediate files, compress logs, and avoid leaving stale large files (like uncompressed SPEF or full-chip GDS) scattered across the farm. Capacity planning, monitoring per-project disk usage against quotas, and coordinating with IT/CAD teams on storage expansion or migration (including the disruption of moving an active project to new mount points) are recurring responsibilities tied closely to release and regression infrastructure.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Storage Networks Explained](https://www.amazon.com/s?k=storage+networks+NFS+NAS+explained)
-- [@course@NFS storage administration Linux](https://www.udemy.com/courses/search/?q=NFS+storage+administration+Linux)
-- [@video@NFS storage performance compute cluster](https://www.youtube.com/results?search_query=NFS+storage+performance+compute+cluster)
-- [@article@storage infrastructure CAD](https://vlsi.kr/?s=storage+infrastructure)
+- [Book] Storage Networks Explained(https://www.amazon.com/s?k=storage+networks+NFS+NAS+explained)
+- [Coursera] NFS storage administration Linux(https://www.udemy.com/courses/search/?q=NFS+storage+administration+Linux)
+- [YouTube] NFS storage performance compute cluster(https://www.youtube.com/results?search_query=NFS+storage+performance+compute+cluster)

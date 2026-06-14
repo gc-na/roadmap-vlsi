@@ -8,9 +8,14 @@ This is why most modern designs use an asynchronous assert, synchronous deassert
 
 Other reset considerations include reset domain crossing (analogous to CDC, when signals cross between blocks reset by different reset signals or at different times), the choice of active-high vs. active-low polarity (consistency matters for library cell selection, since some standard cell flip-flops only natively support one polarity), partial/selective reset (not every register needs reset — resetting only state that affects control flow or output validity reduces area and reset fan-out, an important low-power and DFT consideration), and ensuring reset coverage is verified — that every flop reaches its specified value after reset, checked via simulation and often formal reset analysis tools.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@RTL Design Techniques by Clifford Cummings (SNUG papers on reset)](https://www.amazon.com/s?k=Clifford+Cummings+RTL+coding+reset+techniques)
-- [@course@rtl reset design verilog](https://www.udemy.com/courses/search/?q=rtl+reset+design+verilog)
-- [@video@synchronous vs asynchronous reset verilog](https://www.youtube.com/results?search_query=synchronous+vs+asynchronous+reset+verilog)
-- [@article@reset strategy](https://vlsi.kr/?s=reset+strategy)
+- [Book] RTL Design Techniques by Clifford Cummings (SNUG papers on reset)(https://www.amazon.com/s?k=Clifford+Cummings+RTL+coding+reset+techniques)
+- [Coursera] rtl reset design verilog(https://www.udemy.com/courses/search/?q=rtl+reset+design+verilog)
+- [YouTube] synchronous vs asynchronous reset verilog(https://www.youtube.com/results?search_query=synchronous+vs+asynchronous+reset+verilog)

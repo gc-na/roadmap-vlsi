@@ -6,9 +6,14 @@ The dominant commercial architectures are embedded deterministic test (EDT, Syno
 
 Compression dramatically reduces ATE test time and pattern memory requirements, which is the primary economic justification for the area overhead of the decompressor/compactor logic, typically a few percent of die area. Design considerations include selecting the compression ratio based on expected pattern counts and available test pins, ensuring the decompressor's combinational logic doesn't create excessive routing congestion near the scan chain endpoints, and verifying that the compression network itself is testable (often via a bypass mode that allows direct, uncompressed access to chains for diagnosis). During failure diagnosis, compacted responses must be "unrolled" or the design switched to a bypass/serial mode to localize the failing scan cell precisely.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@test compression EDT scan SoC](https://www.udemy.com/courses/search/?q=test+compression+EDT+scan+SoC)
-- [@video@embedded deterministic test compression scan compactor](https://www.youtube.com/results?search_query=embedded+deterministic+test+compression+scan+compactor)
-- [@article@test compression EDT](https://vlsi.kr/?s=test+compression)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] test compression EDT scan SoC(https://www.udemy.com/courses/search/?q=test+compression+EDT+scan+SoC)
+- [YouTube] embedded deterministic test compression scan compactor(https://www.youtube.com/results?search_query=embedded+deterministic+test+compression+scan+compactor)

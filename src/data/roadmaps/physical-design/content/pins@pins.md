@@ -6,9 +6,14 @@ Good pin placement minimizes wirelength and congestion by locating each pin near
 
 Pin order and spacing also matter for downstream steps: evenly distributed pins reduce the chance of routing bottlenecks near densely packed pin clusters, and reserving blockages or keep-out areas near pins prevents the placer from putting cells where they would block pin access. In flows with multiple hierarchical blocks integrated at a top level, pin placement is often iterated — an initial pin assignment is used for early floorplanning and timing budgeting, then refined based on actual connectivity and congestion seen after a first placement pass, since poor pin placement discovered late can require significant rework of both the block and its parent floorplan.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Physical Design Essentials: An ASIC Design Implementation Perspective](https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
-- [@course@ASIC floorplanning pin placement](https://www.udemy.com/courses/search/?q=ASIC+floorplanning+pin+placement)
-- [@video@chip I/O pin placement floorplan](https://www.youtube.com/results?search_query=chip+IO+pin+placement+floorplan)
-- [@article@pin placement floorplan](https://vlsi.kr/?s=pin+placement)
+- [Book] Physical Design Essentials: An ASIC Design Implementation Perspective(https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
+- [Coursera] ASIC floorplanning pin placement(https://www.udemy.com/courses/search/?q=ASIC+floorplanning+pin+placement)
+- [YouTube] chip I/O pin placement floorplan(https://www.youtube.com/results?search_query=chip+IO+pin+placement+floorplan)

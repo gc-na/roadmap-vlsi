@@ -6,9 +6,14 @@ The testbench needs traffic generators capable of producing realistic and stress
 
 A related concern is power-aware verification: many SoCs implement dynamic voltage and frequency scaling (DVFS), clock gating, and power domains that must be verified for both functional correctness (does the design retain state correctly across a power-down/power-up sequence, using UPF — Unified Power Format — to describe power intent) and performance impact (does clock-gating logic introduce unacceptable latency on wake-up). Performance verification engineers often build analytical or cycle-approximate models of the design's expected throughput to compare against RTL simulation results, helping distinguish "the RTL has a performance bug" from "the architecture itself can't meet the target," which is valuable feedback for architects early in the design cycle.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Computer Architecture: A Quantitative Approach](https://www.amazon.com/s?k=Computer+Architecture+A+Quantitative+Approach+Hennessy+Patterson)
-- [@course@SoC performance verification](https://www.udemy.com/courses/search/?q=SoC+performance+verification)
-- [@video@SoC performance verification bandwidth latency](https://www.youtube.com/results?search_query=SoC+performance+verification+bandwidth+latency)
-- [@article@performance verification](https://vlsi.kr/?s=performance+verification)
+- [Book] Computer Architecture: A Quantitative Approach(https://www.amazon.com/s?k=Computer+Architecture+A+Quantitative+Approach+Hennessy+Patterson)
+- [Coursera] SoC performance verification(https://www.udemy.com/courses/search/?q=SoC+performance+verification)
+- [YouTube] SoC performance verification bandwidth latency(https://www.youtube.com/results?search_query=SoC+performance+verification+bandwidth+latency)

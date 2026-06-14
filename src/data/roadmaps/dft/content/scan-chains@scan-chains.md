@@ -6,9 +6,14 @@ A typical ATPG cycle consists of a shift phase, where a test pattern is serially
 
 Scan chain design requires careful handling of clock domains (each chain ideally contains flops from a single clock domain, or uses lockup latches at domain boundaries to avoid race conditions), reset and set behavior (asynchronous resets must be controllable in test mode to avoid masking faults), and X-sources such as uninitialized memories or analog blocks that must be bounded or blocked from propagating into the scan chain. Scan chain integrity testing (a simple flush/shift pattern) is run first in production test to verify the chains themselves are fault-free before any functional ATPG patterns are applied.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@scan design DFT digital test](https://www.udemy.com/courses/search/?q=scan+design+DFT+digital+test)
-- [@video@scan chain design flip flop shift capture](https://www.youtube.com/results?search_query=scan+chain+design+flip+flop+shift+capture)
-- [@article@scan chains DFT](https://vlsi.kr/?s=scan+chain)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] scan design DFT digital test(https://www.udemy.com/courses/search/?q=scan+design+DFT+digital+test)
+- [YouTube] scan chain design flip flop shift capture(https://www.youtube.com/results?search_query=scan+chain+design+flip+flop+shift+capture)

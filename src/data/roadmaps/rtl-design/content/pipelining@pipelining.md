@@ -1,16 +1,28 @@
 # Pipelining
 
-Pipelining is the technique of inserting registers into a long combinational datapath to break it into shorter stages, allowing each stage to operate on different data in the same clock cycle, much like an assembly line. The goal is to increase throughput and maximum clock frequency by reducing the critical path delay per stage, at the cost of increased latency (the time for one piece of data to traverse all stages) and additional area for the pipeline registers themselves.
+Pipelining inserts registers into long combinational datapaths to break them into shorter stages, allowing different data to operate on different stages simultaneously—like an assembly line. The goal is to increase throughput and clock frequency by reducing critical path delay per stage, at the cost of increased latency (time for data to traverse all stages) and additional register area. This is a fundamental trade-off in high-performance RTL design.
 
-In RTL, pipelining means identifying a long combinational chain — for example, a multiply-accumulate, a multi-stage adder tree, or a complex address decode and memory access — and inserting flip-flop stages at intermediate points. Each pipeline register must carry forward not just the data being transformed but also any control signals (valid bits, opcode, destination tags) associated with that data, so that downstream stages can correctly interpret what arrives. This is often implemented with a "valid" or "enable" signal that travels alongside the data through each stage.
+In RTL, pipelining means identifying long combinational chains (multiply-accumulate, multi-stage adders, address decode + memory access) and inserting flip-flops at intermediate points. Each pipeline register carries not just data but also control signals (valid bits, opcodes, destination tags), so downstream stages interpret arriving values correctly. A "valid" or "enable" signal typically travels with data through all stages, implementing flow control.
 
-Pipeline hazards are the central challenge: structural hazards (resource conflicts), data hazards (a later instruction needs a result not yet produced by an earlier one still in the pipeline), and control hazards (branch outcomes not yet known) all require handling — via stalling (bubble insertion), forwarding/bypassing logic, or flushing. Even in non-CPU datapaths, similar issues arise whenever a pipelined block has feedback or shared resources between stages.
+Pipeline hazards are the central challenge: structural hazards (resource conflicts), data hazards (later instruction needs unprovided earlier result), and control hazards (unknown branch outcomes) all require handling via stalling, forwarding/bypassing, or flushing. Even non-CPU datapaths encounter similar issues when pipelines have feedback or shared resources. Hazard detection and resolution significantly complicate pipelined designs.
 
-Retiming is a related synthesis-level optimization where the tool automatically moves register boundaries across combinational logic to balance stage delays, without changing functional behavior — but RTL designers still need to architect the pipeline structure (number of stages, where state needs to live) since retiming cannot change a design's latency or fundamentally restructure algorithms. Understanding pipeline depth trade-offs against target clock frequency (Fmax) is a recurring theme in RTL-to-timing closure discussions.
+Retiming is a synthesis-level optimization where tools automatically move register boundaries across combinational logic to balance stage delays without changing behavior. However, RTL architects must design the pipeline structure (number of stages, state placement) because retiming cannot change latency or restructure algorithms. Pipeline depth trade-offs against target clock frequency (Fmax) are recurring in timing closure discussions. Smart architectural choices drive synthesis efficiency.
+
+## Key Concepts
+- Pipeline stages and throughput vs. latency trade-offs
+- Control signal propagation (valid bits, tags)
+- Structural, data, and control hazards
+- Hazard resolution (stalling, forwarding, flushing)
+- Register balancing and retiming
+
+## Resume Tips
+- Highlight experience pipelining long datapaths for timing closure
+- Discuss hazard analysis and handling in control-heavy designs
+- Show understanding of latency/throughput trade-offs in architectural decisions
+- Mention cross-functional collaboration on architecture/verification for pipelined designs
 
 Visit the following resources to learn more:
 
-- [@book@Computer Organization and Design by Patterson and Hennessy](https://www.amazon.com/s?k=Computer+Organization+and+Design+Patterson+Hennessy)
-- [@course@rtl pipeline design verilog](https://www.udemy.com/courses/search/?q=rtl+pipeline+design+verilog)
-- [@video@pipelining digital design hazards](https://www.youtube.com/results?search_query=pipelining+digital+design+hazards)
-- [@article@pipelining](https://vlsi.kr/?s=pipelining)
+- [Book] Computer Organization and Design by Patterson and Hennessy(https://www.amazon.com/s?k=Computer+Organization+and+Design+Patterson+Hennessy)
+- [Coursera] rtl pipeline design verilog(https://www.udemy.com/courses/search/?q=rtl+pipeline+design+verilog)
+- [YouTube] pipelining digital design hazards(https://www.youtube.com/results?search_query=pipelining+digital+design+hazards)

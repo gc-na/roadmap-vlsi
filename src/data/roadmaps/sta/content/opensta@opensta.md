@@ -6,9 +6,14 @@ For engineers, OpenSTA is valuable both as a learning tool and as a practical co
 
 OpenSTA supports multi-corner analysis, basic on-chip variation derating, and standard exception types (false paths, multicycle paths, min/max delay), though its feature set for advanced signal integrity (crosstalk) analysis and POCV/LVF statistical timing is less complete than commercial signoff tools like PrimeTime or Tempus. For students and engineers without access to expensive commercial licenses, OpenSTA combined with open PDKs (such as SkyWater 130nm or open-source Liberty libraries) provides a practical, hands-on way to practice constraint writing, timing report interpretation, and ECO-style debugging using real STA commands and real timing data.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Static Timing Analysis for Nanometer Designs](https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
-- [@course@open source EDA OpenROAD digital design](https://www.udemy.com/courses/search/?q=open+source+EDA+OpenROAD+digital+design)
-- [@video@OpenSTA OpenROAD tutorial](https://www.youtube.com/results?search_query=OpenSTA+OpenROAD+static+timing+analysis+tutorial)
-- [@article@OpenSTA OpenROAD](https://vlsi.kr/?s=OpenSTA)
+- [Book] Static Timing Analysis for Nanometer Designs(https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
+- [Coursera] open source EDA OpenROAD digital design(https://www.udemy.com/courses/search/?q=open+source+EDA+OpenROAD+digital+design)
+- [YouTube] OpenSTA OpenROAD tutorial(https://www.youtube.com/results?search_query=OpenSTA+OpenROAD+static+timing+analysis+tutorial)

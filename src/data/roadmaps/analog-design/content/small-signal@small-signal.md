@@ -6,9 +6,14 @@ Key small-signal parameters include gm (transconductance, governing how much dra
 
 Mastering small-signal analysis means being able to quickly derive gain expressions like Av = -gm·(ro || RL) for a common-source stage, or identify dominant poles by inspection, often using techniques such as the Miller approximation, half-circuit analysis for differential pairs, and superposition for feedback networks. This intuition is what allows a designer to predict how changing a transistor's size or bias current will shift gain, bandwidth, and noise — before ever running a SPICE simulation — and is the bridge between device physics and full circuit-level performance specs.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Analysis and Design of Analog Integrated Circuits](https://www.amazon.com/s?k=Analysis+and+Design+of+Analog+Integrated+Circuits+Gray+Hurst+Lewis+Meyer)
-- [@course@small signal analysis analog circuits](https://www.udemy.com/courses/search/?q=small+signal+analysis+analog+circuits)
-- [@video@small signal model MOSFET analysis](https://www.youtube.com/results?search_query=small+signal+model+MOSFET+analysis)
-- [@article@small signal analysis](https://vlsi.kr/?s=small+signal+analysis)
+- [Book] Analysis and Design of Analog Integrated Circuits(https://www.amazon.com/s?k=Analysis+and+Design+of+Analog+Integrated+Circuits+Gray+Hurst+Lewis+Meyer)
+- [Coursera] small signal analysis analog circuits(https://www.udemy.com/courses/search/?q=small+signal+analysis+analog+circuits)
+- [YouTube] small signal model MOSFET analysis(https://www.youtube.com/results?search_query=small+signal+model+MOSFET+analysis)

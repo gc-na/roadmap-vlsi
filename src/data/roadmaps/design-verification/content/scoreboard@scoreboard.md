@@ -6,9 +6,14 @@ A key design challenge is transaction matching and ordering. For in-order protoc
 
 Beyond simple comparison, scoreboards often implement `do_compare()` overrides on transaction objects to define field-by-field comparison rules (e.g., ignoring don't-care bits, or treating certain fields as "expected to be X" in error scenarios), and they report results through `uvm_error`/`uvm_info` so failures surface in the simulation log and regression dashboard. End-of-test checks (verifying all expected transactions were eventually matched, with no leftover unmatched items in either queue) are essential — a scoreboard that only checks "no mismatches found" but never verifies queues are empty can mask missing transactions entirely.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@A Practical Guide to Adopting the Universal Verification Methodology (UVM)](https://www.amazon.com/s?k=A+Practical+Guide+to+Adopting+the+Universal+Verification+Methodology+UVM+Rosenberg+Meade)
-- [@course@UVM scoreboard reference model](https://www.udemy.com/courses/search/?q=UVM+scoreboard+reference+model)
-- [@video@UVM scoreboard tutorial](https://www.youtube.com/results?search_query=UVM+scoreboard+tutorial)
-- [@article@UVM scoreboard](https://vlsi.kr/?s=UVM+scoreboard)
+- [Book] A Practical Guide to Adopting the Universal Verification Methodology (UVM)(https://www.amazon.com/s?k=A+Practical+Guide+to+Adopting+the+Universal+Verification+Methodology+UVM+Rosenberg+Meade)
+- [Coursera] UVM scoreboard reference model(https://www.udemy.com/courses/search/?q=UVM+scoreboard+reference+model)
+- [YouTube] UVM scoreboard tutorial(https://www.youtube.com/results?search_query=UVM+scoreboard+tutorial)

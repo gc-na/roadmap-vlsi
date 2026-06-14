@@ -6,9 +6,14 @@ Designing a flow architecture means deciding how configuration is layered: globa
 
 A good flow architecture is reproducible and version-controlled: every run should be traceable to a specific revision of scripts, constraints, and tool versions, often captured in a run manifest or log header. It also needs to scale, since a single flow definition is reused across hundreds of blocks and thousands of regression runs on a compute farm, so directory layouts, environment setup, and output locations are parameterized rather than hardcoded. Engineers building flow architecture work closely with methodology, CAD, and release teams to ensure changes propagate cleanly without breaking existing block owners' setups.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Digital Systems Design with FPGAs and CPLDs](https://www.amazon.com/s?k=ASIC+design+flow+digital+VLSI+methodology)
-- [@course@ASIC design flow](https://www.udemy.com/courses/search/?q=ASIC+design+flow+VLSI)
-- [@video@ASIC design flow architecture](https://www.youtube.com/results?search_query=ASIC+design+flow+architecture+EDA)
-- [@article@flow architecture](https://vlsi.kr/?s=flow+architecture)
+- [Book] Digital Systems Design with FPGAs and CPLDs(https://www.amazon.com/s?k=ASIC+design+flow+digital+VLSI+methodology)
+- [Coursera] ASIC design flow(https://www.udemy.com/courses/search/?q=ASIC+design+flow+VLSI)
+- [YouTube] ASIC design flow architecture(https://www.youtube.com/results?search_query=ASIC+design+flow+architecture+EDA)

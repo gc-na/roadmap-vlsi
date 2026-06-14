@@ -6,9 +6,14 @@ Specific structures address specific block types. PLLs and clock generators ofte
 
 Analog test also relies heavily on parametric measurements, threshold voltages, leakage currents, oscillator frequencies, and bandgap reference voltages, which require the tester to apply precise analog stimuli and measure analog responses, often through dedicated analog test pins or an analog test bus that multiplexes internal nodes to a small number of pins for probing. Because analog test time and the analog channel count on testers are expensive, DFT engineers work to maximize the portion of AMS verification that can be done digitally (via loopback, BIST-like structures, and on-chip monitors such as voltage/temperature sensors), reserving true analog ATE measurements for the parameters that cannot be inferred any other way. Mixed-signal DFT planning must also account for noise isolation, ensuring digital scan/BIST activity during test doesn't inject switching noise that corrupts sensitive analog measurements.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Mixed-Signal Test Engineering: A Guide to Test and Mixed-Signal Measurement Algorithms](https://www.amazon.com/s?k=Mixed-Signal+Test+Engineering+ADC+DAC+PLL+test)
-- [@course@analog mixed signal test ADC DAC PLL](https://www.udemy.com/courses/search/?q=analog+mixed+signal+test+ADC+DAC+PLL)
-- [@video@mixed signal test ADC DAC loopback BIST](https://www.youtube.com/results?search_query=mixed+signal+test+ADC+DAC+loopback+BIST)
-- [@article@analog mixed signal test](https://vlsi.kr/?s=analog+test)
+- [Book] Mixed-Signal Test Engineering: A Guide to Test and Mixed-Signal Measurement Algorithms(https://www.amazon.com/s?k=Mixed-Signal+Test+Engineering+ADC+DAC+PLL+test)
+- [Coursera] analog mixed signal test ADC DAC PLL(https://www.udemy.com/courses/search/?q=analog+mixed+signal+test+ADC+DAC+PLL)
+- [YouTube] mixed signal test ADC DAC loopback BIST(https://www.youtube.com/results?search_query=mixed+signal+test+ADC+DAC+loopback+BIST)

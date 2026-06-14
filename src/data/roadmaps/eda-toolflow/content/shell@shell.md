@@ -6,9 +6,14 @@ A typical flow uses shell scripts to: source the correct environment setup for a
 
 Shell environment management becomes a significant challenge at scale: different blocks or projects may require different tool versions simultaneously, multiple PDK versions must coexist without conflict, and environment setup scripts can become tangled with conditional logic for different sites, machine types, or legacy compatibility. Module systems (like `environment modules` or `lmod`) are sometimes used to manage this more cleanly. Writing robust shell scripts — proper quoting, error handling with `set -e`/`set -u`, avoiding subtle word-splitting bugs, and making scripts portable across bash versions on different farm hosts — directly affects flow reliability, since a shell bug can cause silent failures that are hard to diagnose across thousands of grid jobs.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@The Linux Command Line](https://www.amazon.com/s?k=The+Linux+Command+Line+William+Shotts)
-- [@course@bash shell scripting](https://www.udemy.com/courses/search/?q=bash+shell+scripting+Linux)
-- [@video@bash scripting for engineers](https://www.youtube.com/results?search_query=bash+shell+scripting+tutorial+Linux)
-- [@article@shell scripting flow automation](https://vlsi.kr/?s=shell+scripting)
+- [Book] The Linux Command Line(https://www.amazon.com/s?k=The+Linux+Command+Line+William+Shotts)
+- [Coursera] bash shell scripting(https://www.udemy.com/courses/search/?q=bash+shell+scripting+Linux)
+- [YouTube] bash scripting for engineers(https://www.youtube.com/results?search_query=bash+shell+scripting+tutorial+Linux)

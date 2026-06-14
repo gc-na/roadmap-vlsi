@@ -6,9 +6,14 @@ VCO design is often the most challenging analog block: ring oscillators offer wi
 
 A delay-locked loop (DLL) is structurally simpler — it locks the phase of an output clock to a reference by adjusting a voltage- or digitally-controlled delay line, without an oscillator, making it inherently more stable (no VCO means no integration of phase noise) but limited to delay/phase adjustment rather than frequency synthesis. DLLs are widely used for clock deskewing, DDR memory interfaces, and multi-phase clock generation, where their lower jitter accumulation compared to PLLs is advantageous.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Design of Analog CMOS Integrated Circuits](https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+PLL)
-- [@course@PLL design phase locked loop CMOS](https://www.udemy.com/courses/search/?q=PLL+design+phase+locked+loop+CMOS)
-- [@video@PLL design charge pump VCO phase noise](https://www.youtube.com/results?search_query=PLL+design+charge+pump+VCO+phase+noise)
-- [@article@PLL design](https://vlsi.kr/?s=PLL+design)
+- [Book] Design of Analog CMOS Integrated Circuits(https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+PLL)
+- [Coursera] PLL design phase locked loop CMOS(https://www.udemy.com/courses/search/?q=PLL+design+phase+locked+loop+CMOS)
+- [YouTube] PLL design charge pump VCO phase noise(https://www.youtube.com/results?search_query=PLL+design+charge+pump+VCO+phase+noise)

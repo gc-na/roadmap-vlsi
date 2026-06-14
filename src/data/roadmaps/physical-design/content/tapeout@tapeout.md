@@ -6,9 +6,14 @@ Beyond the core PD checks, tapeout involves additional steps specific to the man
 
 Tapeout is typically a hard deadline with significant cost implications — mask sets for advanced nodes cost millions of dollars, and any error that escapes to silicon may require a costly re-spin (a new mask set and fabrication run) or, if caught early enough, a metal-only ECO that reuses some existing masks. For this reason, tapeout is preceded by extensive checklists, sign-off reviews involving multiple teams (design, verification, physical design, package/test), and often a final "tapeout readiness" review confirming all waivers are documented and all required checks have been completed on the exact GDS being sent to the foundry.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Physical Design Essentials: An ASIC Design Implementation Perspective](https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
-- [@course@ASIC tapeout signoff flow](https://www.udemy.com/courses/search/?q=ASIC+tapeout+signoff+flow)
-- [@video@chip tapeout process explained](https://www.youtube.com/results?search_query=chip+tapeout+process+explained)
-- [@article@tapeout](https://vlsi.kr/?s=tapeout)
+- [Book] Physical Design Essentials: An ASIC Design Implementation Perspective(https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
+- [Coursera] ASIC tapeout signoff flow(https://www.udemy.com/courses/search/?q=ASIC+tapeout+signoff+flow)
+- [YouTube] chip tapeout process explained(https://www.youtube.com/results?search_query=chip+tapeout+process+explained)

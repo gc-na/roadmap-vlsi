@@ -6,9 +6,14 @@ ATPG operates on the scan-inserted gate-level netlist and produces patterns expr
 
 A major practical concern is unknown (X) values arising from uninitialized memories, analog macros, or multi-cycle paths; ATPG tools must either block these X-sources, bound them with X-masking on the compactor, or model them explicitly so they don't corrupt observed responses. For at-speed testing, transition fault ATPG generates two-pattern sequences (an initialization pattern and a launch/capture pair run at functional clock speed) and must account for clock domain crossings and on-chip clock generation (PLLs) through dedicated at-speed test clocking schemes. Diagnosis-oriented ATPG additionally generates patterns optimized to distinguish between candidate fault locations for failure analysis.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@ATPG automatic test pattern generation](https://www.udemy.com/courses/search/?q=ATPG+automatic+test+pattern+generation)
-- [@video@ATPG algorithm PODEM D-algorithm tutorial](https://www.youtube.com/results?search_query=ATPG+algorithm+PODEM+D-algorithm+tutorial)
-- [@article@ATPG fault coverage](https://vlsi.kr/?s=ATPG)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] ATPG automatic test pattern generation(https://www.udemy.com/courses/search/?q=ATPG+automatic+test+pattern+generation)
+- [YouTube] ATPG algorithm PODEM D-algorithm tutorial(https://www.youtube.com/results?search_query=ATPG+algorithm+PODEM+D-algorithm+tutorial)

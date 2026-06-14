@@ -8,9 +8,14 @@ Assertions integrated directly into RTL (sometimes called "white-box" assertions
 
 A practical RTL coding consideration is keeping assertions synthesis-transparent: assertions must be ignored by synthesis (most tools automatically strip `assert`/`cover` statements, but designers should verify this) while remaining active in simulation, and assertion density should be balanced against simulation performance overhead, especially in large block-level or SoC-level regressions.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@SystemVerilog Assertions Handbook by Ben Cohen](https://www.amazon.com/s?k=SystemVerilog+Assertions+Handbook+Ben+Cohen)
-- [@course@systemverilog assertions sva](https://www.udemy.com/courses/search/?q=systemverilog+assertions+sva)
-- [@video@systemverilog assertions tutorial sva](https://www.youtube.com/results?search_query=systemverilog+assertions+tutorial+sva)
-- [@article@systemverilog assertions](https://vlsi.kr/?s=systemverilog+assertions)
+- [Book] SystemVerilog Assertions Handbook by Ben Cohen(https://www.amazon.com/s?k=SystemVerilog+Assertions+Handbook+Ben+Cohen)
+- [Coursera] systemverilog assertions sva(https://www.udemy.com/courses/search/?q=systemverilog+assertions+sva)
+- [YouTube] systemverilog assertions tutorial sva(https://www.youtube.com/results?search_query=systemverilog+assertions+tutorial+sva)

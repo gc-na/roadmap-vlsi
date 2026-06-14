@@ -6,9 +6,14 @@ Static IR drop analysis considers average or worst-case current draw across the 
 
 Fixing IR drop violations typically involves power grid changes — adding more straps or widening existing ones in the affected region, adding more connections (vias) between layers to reduce via resistance, relocating or adding decap cells near high-activity hotspots, or in severe cases adding more power pads/bumps to reduce the distance current must travel. Because IR drop fixes often require power grid modifications, they are best addressed as early as possible (during floorplanning and power planning) using estimated activity, with signoff-level dynamic IR drop analysis (using tools such as Synopsys PrimePower/Voltus-class analysis) confirming margins late in the flow; late-stage IR drop violations can be among the most disruptive to fix because they may require re-routing in the affected area.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Power Integrity Analysis and Management for Integrated Circuits](https://www.amazon.com/s?k=Power+Integrity+Analysis+and+Management+for+Integrated+Circuits)
-- [@course@IR drop power integrity ASIC](https://www.udemy.com/courses/search/?q=IR+drop+power+integrity+ASIC)
-- [@video@IR drop analysis chip design explained](https://www.youtube.com/results?search_query=IR+drop+analysis+chip+design+explained)
-- [@article@IR drop](https://vlsi.kr/?s=IR+drop)
+- [Book] Power Integrity Analysis and Management for Integrated Circuits(https://www.amazon.com/s?k=Power+Integrity+Analysis+and+Management+for+Integrated+Circuits)
+- [Coursera] IR drop power integrity ASIC(https://www.udemy.com/courses/search/?q=IR+drop+power+integrity+ASIC)
+- [YouTube] IR drop analysis chip design explained(https://www.youtube.com/results?search_query=IR+drop+analysis+chip+design+explained)

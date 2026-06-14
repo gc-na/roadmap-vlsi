@@ -6,9 +6,14 @@ LVS verifies that the layout actually implements the intended circuit by extract
 
 Both checks are run using foundry-qualified tools (such as Synopsys IC Validator, Cadence Pegasus, or Siemens Calibre) with rule decks provided by the foundry, and are computationally intensive enough that they're often run hierarchically or with multi-threaded/distributed processing on full-chip designs. A related check, antenna rule checking, is often bundled with DRC to catch process-induced charging issues on long unconnected metal segments. Physical verification is iterative — early DRC/LVS runs on partial or in-progress layouts catch issues before they compound, while the final signoff run must be completely clean, making DRC/LVS one of the hard gating criteria for tapeout readiness.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Physical Design Essentials: An ASIC Design Implementation Perspective](https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
-- [@course@DRC LVS physical verification](https://www.udemy.com/courses/search/?q=DRC+LVS+physical+verification)
-- [@video@DRC and LVS explained chip design](https://www.youtube.com/results?search_query=DRC+and+LVS+explained+chip+design)
-- [@article@DRC LVS](https://vlsi.kr/?s=DRC+LVS)
+- [Book] Physical Design Essentials: An ASIC Design Implementation Perspective(https://www.amazon.com/s?k=Physical+Design+Essentials+An+ASIC+Design+Implementation+Perspective+Sait+Youssef)
+- [Coursera] DRC LVS physical verification(https://www.udemy.com/courses/search/?q=DRC+LVS+physical+verification)
+- [YouTube] DRC and LVS explained chip design(https://www.youtube.com/results?search_query=DRC+and+LVS+explained+chip+design)

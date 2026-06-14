@@ -6,9 +6,14 @@ Skew matters because it directly affects setup and hold margins: if a launching 
 
 After CTS, the design undergoes extensive post-CTS optimization: timing is re-analyzed with the actual clock tree's insertion delays and skew, and any setup/hold violations are fixed through buffer sizing, gate sizing, or local placement adjustments. Clock gating cells (inserted during synthesis for power savings) must be handled carefully in CTS since they sit in the clock path and add both delay and an enable-dependent timing arc. For multi-clock designs, CTS must also manage clock domain crossings and ensure that clock tree balancing doesn't inadvertently create large skew between domains that interact through synchronizers, which is checked separately in clock domain crossing (CDC) analysis.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Static Timing Analysis for Nanometer Designs](https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chadha)
-- [@course@clock tree synthesis ASIC design](https://www.udemy.com/courses/search/?q=clock+tree+synthesis+ASIC+design)
-- [@video@clock tree synthesis CTS explained](https://www.youtube.com/results?search_query=clock+tree+synthesis+CTS+explained)
-- [@article@clock tree synthesis](https://vlsi.kr/?s=clock+tree+synthesis)
+- [Book] Static Timing Analysis for Nanometer Designs(https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chadha)
+- [Coursera] clock tree synthesis ASIC design(https://www.udemy.com/courses/search/?q=clock+tree+synthesis+ASIC+design)
+- [YouTube] clock tree synthesis CTS explained(https://www.youtube.com/results?search_query=clock+tree+synthesis+CTS+explained)

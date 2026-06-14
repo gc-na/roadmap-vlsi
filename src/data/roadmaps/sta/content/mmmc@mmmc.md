@@ -6,9 +6,14 @@ Each scenario in an MMMC setup typically consists of an SDC constraint file (def
 
 Tools like PrimeTime and Tempus support MMMC natively through commands that define analysis views (combining a constraint mode and a delay corner), and engineers can run all scenarios in parallel using distributed compute to manage the runtime cost. A key MMMC concept is that optimization during synthesis and place-and-route must also consider multiple corners simultaneously (multi-corner optimization), since a cell sized to fix a setup violation at the slow corner could create a hold violation at the fast corner. Properly scoping which scenarios are "signoff" (must be clean) versus "informational" is a major methodology decision that balances coverage against turnaround time.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Static Timing Analysis for Nanometer Designs](https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
-- [@course@multi corner multi mode timing signoff](https://www.udemy.com/courses/search/?q=multi+corner+multi+mode+STA+signoff)
-- [@video@MMMC multi mode multi corner STA](https://www.youtube.com/results?search_query=MMMC+multi+mode+multi+corner+STA+explained)
-- [@article@MMMC multi corner](https://vlsi.kr/?s=MMMC)
+- [Book] Static Timing Analysis for Nanometer Designs(https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
+- [Coursera] multi corner multi mode timing signoff(https://www.udemy.com/courses/search/?q=multi+corner+multi+mode+STA+signoff)
+- [YouTube] MMMC multi mode multi corner STA(https://www.youtube.com/results?search_query=MMMC+multi+mode+multi+corner+STA+explained)

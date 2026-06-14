@@ -6,9 +6,14 @@ Getting a design into emulation requires significant setup: the RTL must be synt
 
 Debug in emulation is fundamentally different from simulation: you can't dump full waveforms for the entire run due to data volume, so engineers typically run with limited "trace buffers" that capture a configurable window of signals, then use triggers (matching a specific condition) to capture the relevant window around a failure, sometimes requiring multiple emulation runs to progressively narrow down the signals being traced. UVM-based testbenches can run on emulation through frameworks that synthesize the driver/monitor pin-level logic while keeping sequence/scoreboard logic on the host, though this requires careful partitioning to avoid the testbench becoming the bottleneck. Emulation is often used for software-driven verification and as a bridge toward post-silicon validation, where the same test content can later run on actual chips.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@A Practical Guide to Adopting the Universal Verification Methodology (UVM)](https://www.amazon.com/s?k=A+Practical+Guide+to+Adopting+the+Universal+Verification+Methodology+UVM+Rosenberg+Meade)
-- [@course@hardware emulation SoC verification](https://www.udemy.com/courses/search/?q=hardware+emulation+SoC+verification)
-- [@video@hardware emulation ASIC verification tutorial](https://www.youtube.com/results?search_query=hardware+emulation+ASIC+verification+tutorial)
-- [@article@hardware emulation](https://vlsi.kr/?s=hardware+emulation)
+- [Book] A Practical Guide to Adopting the Universal Verification Methodology (UVM)(https://www.amazon.com/s?k=A+Practical+Guide+to+Adopting+the+Universal+Verification+Methodology+UVM+Rosenberg+Meade)
+- [Coursera] hardware emulation SoC verification(https://www.udemy.com/courses/search/?q=hardware+emulation+SoC+verification)
+- [YouTube] hardware emulation ASIC verification tutorial(https://www.youtube.com/results?search_query=hardware+emulation+ASIC+verification+tutorial)

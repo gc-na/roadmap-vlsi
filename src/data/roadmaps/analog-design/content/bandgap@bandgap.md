@@ -6,9 +6,14 @@ In CMOS processes without dedicated vertical BJTs, designers use parasitic verti
 
 Practical bandgap design must also address startup circuitry (since the bandgap loop has a degenerate zero-current solution), PSRR (often requiring a low-dropout pre-regulator or cascoded current sources), and the trade-off between accuracy, area (BJT and resistor matching), and power. Trimming (via fuses, OTP, or digital calibration) is commonly used in production to correct for process variation in VBE and resistor ratios, since untrimmed bandgap accuracy is typically only a few percent.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Design of Analog CMOS Integrated Circuits](https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+bandgap+reference)
-- [@course@bandgap voltage reference design](https://www.udemy.com/courses/search/?q=bandgap+voltage+reference+design)
-- [@video@bandgap reference circuit design CMOS](https://www.youtube.com/results?search_query=bandgap+reference+circuit+design+CMOS)
-- [@article@bandgap reference design](https://vlsi.kr/?s=bandgap+reference+design)
+- [Book] Design of Analog CMOS Integrated Circuits(https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+bandgap+reference)
+- [Coursera] bandgap voltage reference design(https://www.udemy.com/courses/search/?q=bandgap+voltage+reference+design)
+- [YouTube] bandgap reference circuit design CMOS(https://www.youtube.com/results?search_query=bandgap+reference+circuit+design+CMOS)

@@ -6,9 +6,14 @@ The most common post-layout surprises are bandwidth and phase margin reductions 
 
 Post-layout simulation should also include corner analysis (process corners combined with temperature and supply voltage extremes) on the extracted netlist, since layout parasitics can shift which corner is actually worst-case for a given spec compared to schematic-level predictions. When a post-layout simulation reveals a violation, the designer must trace the discrepancy back to specific parasitic elements (using the extraction tool's cross-probing to layout) and decide between a layout fix (rerouting, resizing, re-floorplanning) or a schematic-level adjustment (adding margin, changing bias conditions) — making fast iteration between extraction, simulation, and layout edit a key productivity factor in analog design closure.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Design of Analog CMOS Integrated Circuits](https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+post+layout+simulation)
-- [@course@post layout simulation analog IC verification](https://www.udemy.com/courses/search/?q=post+layout+simulation+analog+IC+verification)
-- [@video@post layout simulation analog IC design](https://www.youtube.com/results?search_query=post+layout+simulation+analog+IC+design)
-- [@article@post layout simulation](https://vlsi.kr/?s=post+layout+simulation)
+- [Book] Design of Analog CMOS Integrated Circuits(https://www.amazon.com/s?k=Design+of+Analog+CMOS+Integrated+Circuits+Razavi+post+layout+simulation)
+- [Coursera] post layout simulation analog IC verification(https://www.udemy.com/courses/search/?q=post+layout+simulation+analog+IC+verification)
+- [YouTube] post layout simulation analog IC design(https://www.youtube.com/results?search_query=post+layout+simulation+analog+IC+design)

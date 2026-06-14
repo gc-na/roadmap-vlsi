@@ -6,9 +6,14 @@ Because purely pseudo-random patterns generally cannot achieve the fault coverag
 
 LBIST is especially valuable for in-system and periodic self-test in safety-critical applications (automotive ISO 26262, where it contributes to meeting required diagnostic coverage targets for ASIL ratings), since it can run at power-up, during idle periods, or periodically during operation without external test equipment. It is also used during burn-in and at wafer sort/final test to reduce dependency on expensive ATE channels for high pattern-count stuck-at and transition coverage. Key design considerations include managing clock domains during self-test (often requiring all clocks to run synchronously or be gated into a common test clock), handling X-sources that would corrupt the MISR signature, and ensuring the LBIST hardware itself is adequately tested as part of the overall DFT architecture.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits](https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
-- [@course@logic BIST LFSR pseudo-random pattern](https://www.udemy.com/courses/search/?q=logic+BIST+LFSR+pseudo-random+pattern)
-- [@video@logic BIST LFSR MISR signature tutorial](https://www.youtube.com/results?search_query=logic+BIST+LFSR+MISR+signature+tutorial)
-- [@article@logic BIST](https://vlsi.kr/?s=logic+BIST)
+- [Book] Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits(https://www.amazon.com/s?k=Essentials+of+Electronic+Testing+for+Digital+Memory+and+Mixed-Signal+VLSI+Circuits+Bushnell+Agrawal)
+- [Coursera] logic BIST LFSR pseudo-random pattern(https://www.udemy.com/courses/search/?q=logic+BIST+LFSR+pseudo-random+pattern)
+- [YouTube] logic BIST LFSR MISR signature tutorial(https://www.youtube.com/results?search_query=logic+BIST+LFSR+MISR+signature+tutorial)

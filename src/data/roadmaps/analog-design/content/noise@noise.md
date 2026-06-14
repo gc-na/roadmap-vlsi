@@ -6,9 +6,14 @@ Input-referred noise analysis involves referring every noise source in a circuit
 
 Designers must also account for noise folding in switched-capacitor and sampled systems, where wideband noise aliases into the signal band, and for correlation between noise sources when computing total output noise via superposition of variances (not amplitudes). Noise simulations in SPICE (.noise analysis) report both device-level contributions and total output/input-referred noise, guiding trade-offs between power consumption, bandwidth, and noise floor — a central trade-off in nearly every analog block from LNAs to data converters.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Analysis and Design of Analog Integrated Circuits](https://www.amazon.com/s?k=Analysis+and+Design+of+Analog+Integrated+Circuits+Gray+Hurst+Lewis+Meyer+noise)
-- [@course@noise analysis analog IC design](https://www.udemy.com/courses/search/?q=noise+analysis+analog+IC+design)
-- [@video@MOSFET noise thermal flicker noise analysis](https://www.youtube.com/results?search_query=MOSFET+noise+thermal+flicker+noise+analysis)
-- [@article@noise analysis analog circuits](https://vlsi.kr/?s=noise+analysis+analog+circuits)
+- [Book] Analysis and Design of Analog Integrated Circuits(https://www.amazon.com/s?k=Analysis+and+Design+of+Analog+Integrated+Circuits+Gray+Hurst+Lewis+Meyer+noise)
+- [Coursera] noise analysis analog IC design(https://www.udemy.com/courses/search/?q=noise+analysis+analog+IC+design)
+- [YouTube] MOSFET noise thermal flicker noise analysis(https://www.youtube.com/results?search_query=MOSFET+noise+thermal+flicker+noise+analysis)

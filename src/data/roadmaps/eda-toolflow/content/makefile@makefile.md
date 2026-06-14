@@ -6,9 +6,14 @@ In practice, EDA Makefiles define targets for each flow stage (`synth`, `place`,
 
 Makefiles in this domain often grow complex, with included sub-makefiles per project or block, phony targets for cleanup and reporting, and integration with the job-tracking system so `make` doesn't just fire-and-forget grid jobs but can report aggregate pass/fail. Common pitfalls include incorrect dependency declarations causing stale results to be silently reused, and the need for `.PHONY` targets and careful handling of timestamps on networked filesystems where clock skew between machines can confuse Make's timestamp-based logic. Some teams move away from raw Make toward Python-based build systems (like SCons or custom DAG schedulers) for more complex dependency graphs, but Make remains common due to its ubiquity and simplicity for straightforward pipelines.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Managing Projects with GNU Make](https://www.amazon.com/s?k=Managing+Projects+with+GNU+Make)
-- [@course@Makefile build automation](https://www.udemy.com/courses/search/?q=Makefile+build+automation+Linux)
-- [@video@Makefile tutorial dependencies](https://www.youtube.com/results?search_query=GNU+Make+Makefile+tutorial+dependencies)
-- [@article@Makefile flow automation](https://vlsi.kr/?s=Makefile)
+- [Book] Managing Projects with GNU Make(https://www.amazon.com/s?k=Managing+Projects+with+GNU+Make)
+- [Coursera] Makefile build automation(https://www.udemy.com/courses/search/?q=Makefile+build+automation+Linux)
+- [YouTube] Makefile tutorial dependencies(https://www.youtube.com/results?search_query=GNU+Make+Makefile+tutorial+dependencies)

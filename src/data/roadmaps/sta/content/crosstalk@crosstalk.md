@@ -6,9 +6,14 @@ Crosstalk affects timing in two distinct ways. Delay change (also called crossta
 
 Signoff STA tools such as PrimeTime SI and Tempus with signal integrity analysis incorporate crosstalk by identifying aggressor-victim pairs from the extracted parasitics (SPEF), determining which aggressors can switch within the victim's relevant timing window, and applying the worst-case delta delay to setup and hold calculations. Mitigation techniques include increasing spacing between critical nets, inserting shield wires tied to VDD/VSS, adjusting net ordering during routing, and using non-default routing rules (NDRs) for sensitive clock and reset nets. Crosstalk analysis significantly increases runtime compared to basic STA, so it is typically run at signoff corners rather than during every incremental ECO iteration.
 
+
+## Resume Tips
+
+- Quantify your experience: mention specific tools, methodologies, or design metrics.
+- In interviews, explain your problem-solving approach — companies value reasoning over memorization.
+- Highlight cross-functional collaboration: most semiconductor work is team-based.
 Visit the following resources to learn more:
 
-- [@book@Static Timing Analysis for Nanometer Designs](https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
-- [@course@signal integrity crosstalk VLSI](https://www.udemy.com/courses/search/?q=signal+integrity+crosstalk+VLSI+timing)
-- [@video@crosstalk signal integrity STA](https://www.youtube.com/results?search_query=crosstalk+signal+integrity+STA+PrimeTime)
-- [@article@crosstalk signal integrity](https://vlsi.kr/?s=crosstalk)
+- [Book] Static Timing Analysis for Nanometer Designs(https://www.amazon.com/s?k=Static+Timing+Analysis+for+Nanometer+Designs+Bhasker+Chetput)
+- [Coursera] signal integrity crosstalk VLSI(https://www.udemy.com/courses/search/?q=signal+integrity+crosstalk+VLSI+timing)
+- [YouTube] crosstalk signal integrity STA(https://www.youtube.com/results?search_query=crosstalk+signal+integrity+STA+PrimeTime)
